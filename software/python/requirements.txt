@@ -1,0 +1,14 @@
+numpy
+matplotlib
+scipy
+ipykernel
+pyyaml
+pandas
+argparse
+sympy
+drake==1.5.0
+lxml
+filterpy
+cma
+tikzplotlib
+jinja2

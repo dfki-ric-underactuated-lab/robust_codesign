@@ -1,0 +1,169 @@
+***************************************************************
+============ Job Infos ============
+Node list:
+Job Id: 167330
+Job Name: drakeOpt
+Partition: standard
+Submit directory: /gluster/scratch/fgirlanda
+Submit host: hpc-lnode01.dfki.uni-bremen.de
+In the directory: 'SCRATCH'
+At the user: 'fgirlanda'
+Python version: '3.8'
+‘***************************************************************
+Defaulting to user installation because normal site-packages is not writeable
+Processing ./software/python
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting argparse
+  Using cached argparse-1.4.0-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: cma in /usr/local/lib/python3.10/dist-packages (from robust-codesign==2.0.0) (3.3.0)
+Requirement already satisfied: filterpy in /usr/local/lib/python3.10/dist-packages (from robust-codesign==2.0.0) (1.4.5)
+Requirement already satisfied: ipykernel in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (6.7.0)
+Requirement already satisfied: lxml in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (4.8.0)
+Requirement already satisfied: matplotlib in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (3.5.1)
+Requirement already satisfied: numpy in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (1.21.5)
+Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (from robust-codesign==2.0.0) (1.5.3)
+Requirement already satisfied: pyyaml in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (5.4.1)
+Requirement already satisfied: scipy in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (1.8.0)
+Requirement already satisfied: sympy in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (1.9)
+Requirement already satisfied: debugpy<2.0,>=1.0.0 in /usr/local/lib/python3.10/dist-packages (from ipykernel->robust-codesign==2.0.0) (1.6.6)
+Requirement already satisfied: python-dateutil>=2.8.1 in /usr/lib/python3/dist-packages (from pandas->robust-codesign==2.0.0) (2.8.1)
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas->robust-codesign==2.0.0) (2022.1)
+Building wheels for collected packages: robust-codesign
+  Building wheel for robust-codesign (setup.py): started
+  Building wheel for robust-codesign (setup.py): finished with status 'done'
+  Created wheel for robust-codesign: filename=robust_codesign-2.0.0-py3-none-any.whl size=183669 sha256=0138e520f51c7db3b8c52e86e642f0a9cc43102a6d62d5c4349af7e032cd1cdd
+  Stored in directory: /tmp/pip-ephem-wheel-cache-rpu_e5ww/wheels/6e/eb/0d/795a89f6d72f87d018bd44d358cb3e65c2c9296e731a438b05
+Successfully built robust-codesign
+Installing collected packages: argparse, robust-codesign
+  Attempting uninstall: robust-codesign
+    Found existing installation: robust-codesign 2.0.0
+    Uninstalling robust-codesign-2.0.0:
+      Successfully uninstalled robust-codesign-2.0.0
+Successfully installed argparse-1.4.0 robust-codesign-2.0.0
+ 
+Inner optimization function evaluation (q11, q22, r, obj):  [10.300844841287564, 12.487157454546137, 9.641537140941063, -7.7702686689271]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.551102662361709, 14.815522368991296, 9.487599755833664, -6.974205099292467]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.04112225976812, 9.243906081499018, 8.904921723455853, -10.003840215633574]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.659099748132927, 6.678946629556009, 9.793230711115832, -9.493727332282262]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.29013744822383, 10.657142138269982, 9.910422500488368, -7.9731062160044495]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.207612094153789, 10.079084303959624, 6.322554315864329, -16.153091331891762]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.344689055606608, 7.09133498385687, 9.151350742633364, -9.576029237195735]
+Inner optimization function evaluation (q11, q22, r, obj):  [13.859917762153373, 12.176787897510176, 9.949149176851257, -7.417957695999466]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.152008177436889, 8.534795810744136, 9.999987479846345, -8.515511828052992]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.492196420871394, 13.315201766574141, 9.99946046791347, -7.487122878907898]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.735260484828643, 12.147845344406635, 9.345643799604446, -9.321100125216908]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.91068019641651, 10.679210361671814, 9.761144252998099, -7.166018223519417]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.538612835153602, 15.049129139168748, 9.34843706747276, -10.020514865969862]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.547452700334441, 14.311429913140024, 4.6882890033237725, -16.21612770697012]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.017646771798407, 9.07852439590673, 7.3737217962542445, -15.53013836998007]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.075915277895405, 4.187637985410002, 9.950264993029668, -10.113683414993943]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.051908523359868, 15.909439383772032, 8.456274910011368, -10.275270636796186]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.60335191470671, 13.26811591568613, 6.693790563204577, -11.899715029099472]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.29431121674221, 11.48598349443403, 5.329614005888581, -16.202149410945623]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.99071273562112, 6.440958270938751, 8.733315107472533, -10.273273659866392]
+Inner optimization function evaluation (q11, q22, r, obj):  [15.28259054267501, 12.236053492284404, 9.041177558253542, -6.930771679841682]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -1.621612770697012e+01 1.0e+00 3.39e+00  3e+00  3e+00 75:26.7
+Inner optimization function evaluation (q11, q22, r, obj):  [10.025335107908264, 7.909714364863889, 8.03298838462798, -10.036227716815326]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.714158423642115, 11.923178471104068, 7.038721144277753, -12.33464334456392]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.000226223339063, 13.710945765650191, 9.999990634800632, -9.505902268059867]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.787399344560491, 11.536205819571165, 8.738860882599152, -10.325645213439293]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.756292271270652, 12.78851369592242, 5.608721372325142, -13.208728062406228]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.499420449866821, 8.547221577610657, 9.579126585686705, -13.636394373213664]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.492407242835598, 12.554286249442823, 9.686190413187727, -11.036383746212918]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.605119834766047, 10.585659268177459, 6.7977969974489305, -13.660135597387914]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.472605009157004, 9.693565204270298, 7.599092536708463, -12.924867628066162]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.2396340430555, 5.457540204649374, 4.6775276938146035, -24.890050925633773]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.124441321853504, 12.108568246043939, 9.971656124426994, -11.016101996656719]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.708076528801875, 8.322630129844216, 8.226977587759325, -10.598397419630954]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.534449122022393, 11.789735413353618, 7.505035869604761, -11.723471039922636]
+Inner optimization function evaluation (q11, q22, r, obj):  [15.409576466575228, 8.347845169221557, 8.193723037254124, -8.787187009580858]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.439342403243078, 12.534376217457858, 9.101084620560634, -8.5794766433803]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.36305455485365, 7.327209422148574, 9.981648106151496, -8.566660405228525]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.729660328311986, 13.124461213644247, 7.075205890285195, -11.427749366312767]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.338152514732884, 16.06461897137838, 9.221204574998442, -11.189326509915952]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.336112221972364, 11.94224734300398, 7.954052381672678, -8.860640190805201]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.830934884608535, 10.232163226314562, 9.857011595280955, -10.104669129129721]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.061986988372489, 10.882384665715815, 5.950643539857735, -14.205871428486855]
+    2     42 -2.489005092563377e+01 1.8e+00 3.42e+00  3e+00  4e+00 152:51.7
+Inner optimization function evaluation (q11, q22, r, obj):  [8.008756889469739, 14.458750759259553, 7.877567364899326, -10.02930127306551]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.081948268946897, 12.858577242780841, 8.159777558794767, -10.225165007424067]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.101656057765059, 3.4229639969793295, 4.320588432209073, -22.867972049394645]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.154745416495906, 11.584102869174645, 5.75842588155122, -14.514499603736013]
+Inner optimization function evaluation (q11, q22, r, obj):  [14.327067154762549, 16.470999825031033, 3.1489977324342986, -25.542471017035737]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.705548608950627, 5.222441065198337, 5.237569563359726, -23.306862359257906]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.7090591466024, 4.929493071098677, 9.4758709534347, -15.713857501417761]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.016003560655381, 11.871164683485961, 6.952988939785866, -14.62273754042964]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.294796426710851, 7.616940605934338, 8.993888672673648, -10.583757970943775]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.956358038477977, 7.334102931335149, 9.180853028446455, -12.082222740168984]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.9956193234986745, 11.075388695709773, 8.817706468058446, -16.27089556123947]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.368690222561826, 12.81535849001314, 5.968193888842245, -12.406266431943767]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.097485509694673, 13.992808173958137, 9.662047584542371, -7.595336521771946]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.05089978070381, 9.484658274566886, 9.02392856229841, -11.204810001847417]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.523435639556737, 10.682178714402127, 9.425778570202572, -8.70146763070258]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.618739573292544, 7.071575174390297, 8.246779554362577, -13.152948120032276]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.226864952232326, 9.435449164055072, 5.236966392154217, -13.53132373499068]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.141479058626636, 6.266897327758646, 9.77900656771864, -12.217582105617472]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.99158880939135, 9.583254890157171, 7.752680992809708, -13.858981345303139]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.518937206932838, 11.46412242263522, 9.152579784275602, -10.235613949152473]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.979429408672603, 6.15261549894867, 9.250459649307267, -11.4439680790222]
+    3     63 -2.554247101703574e+01 1.9e+00 2.60e+00  3e+00  3e+00 230:58.7
+Inner optimization function evaluation (q11, q22, r, obj):  [8.373830222839759, 7.949202100216853, 9.929057964126441, -9.520926711418145]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.1033605802668305, 11.751293690813167, 9.574967246498995, -11.914668790360789]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.474728310380154, 11.222086684204315, 5.821055632491598, -15.255540383053598]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.085562000624405, 11.476680597392477, 4.073996264283375, -26.69959690132329]
+Inner optimization function evaluation (q11, q22, r, obj):  [15.078839567769375, 12.998192950107738, 8.166463769429818, -10.126848510890838]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.377717947540868, 13.717088491889427, 5.346074889218299, -15.452801665564444]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.58131495507167, 12.349381918484099, 7.584390187063766, -11.973053355428428]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.956161414026298, 12.99450530191816, 6.273201212026986, -12.518715080884665]
+Inner optimization function evaluation (q11, q22, r, obj):  [14.282514677608429, 7.64218464787997, 9.155873480656524, -8.54561809425239]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.619498704663254, 11.091177106851292, 8.76224367062279, -10.852773121235021]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.674433437762666, 10.93594394547648, 9.485162108760889, -8.543747796252337]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.437426279219965, 4.095015683869848, 9.989234545961196, -11.248756548534946]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.4258593658435625, 11.984814328222413, 9.955407226429875, -9.551658427782982]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.1098397180659, 14.160320993704303, 6.242622872039968, -12.842574520760518]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.402896546617459, 6.733659517716868, 7.518351207092579, -12.925664103510885]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.051257265950092, 15.420308629836494, 2.675022207867161, -35.13868641336213]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.243052374709936, 9.533282329706951, 9.565230421305776, -10.342084182804397]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.448969351551838, 6.469502342487763, 8.717558587370009, -12.147985330276601]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.495041629756665, 12.71567275474197, 5.132881856403165, -13.254790513889944]
+Inner optimization function evaluation (q11, q22, r, obj):  [13.168434124399269, 7.079646629549014, 9.703889811383217, -8.025568514255331]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.568173991041085, 7.465187301166152, 9.891073438210345, -11.316866435113]
+    4     84 -3.513868641336213e+01 2.6e+00 4.21e+00  3e+00  5e+00 306:08.5
+Inner optimization function evaluation (q11, q22, r, obj):  [4.244294975613095, 2.4434705575110094, 9.855738294122109, -18.931996527234354]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.656867819146017, 13.867438921877405, 4.744128213747393, -16.230099562639612]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.692069521289049, 15.186568148720593, 4.309897843587928, -21.653008106706366]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.26886455857446, 7.042503084570509, 6.840373220551125, -14.620504225434399]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.568476331776345, 17.036648004960462, 4.541055956854391, -21.14360443805066]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.596216473950479, 18.08217390502121, 3.092972027268387, -36.059086810423686]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.814869769652658, 13.989305852300921, 0.8232533707700505, -343.34808552594416]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.990203975823556, 3.6585292813399164, 9.31874169313653, -12.721537604666974]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.228523480369463, 10.407959191258785, 8.521979656706744, -12.231753502360885]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.740853996432568, 9.552351932714771, 9.747574210627272, -13.098615215170645]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.941667026092466, 9.132162648941867, 6.2144222914516, -13.148720754882362]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.58717084806952, 13.314530844339373, 5.4534371440496905, -15.892706084150054]
+Inner optimization function evaluation (q11, q22, r, obj):  [13.455556149896866, 10.954146960623568, 4.2434157796314995, -20.129331120895877]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.782898041223437, 15.395538778064884, 3.9104728706268963, -19.283685659143778]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.470337662380274, 17.152576183311176, 2.6873876356796833, -33.33660411265001]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.08654130181846, 11.748495360136733, 4.918436415510309, -15.806365211015267]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.897867990220439, 5.9568037227593384, 7.9824577536583075, -10.803016997520178]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.5684900489758755, 6.8161022784609235, 7.035153111596083, -18.66533516213179]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.599957626872657, 8.43401563241869, 5.242166394038884, -16.965365205947258]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.376214427640047, 7.207872331212345, 8.87017048134422, -10.303535651893789]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.84196251038385, 16.400666986672086, 1.229431165928505, -183.61086786845848]
+    5    105 -3.433480855259442e+02 4.1e+00 7.69e+00  3e+00  6e+00 384:12.8
+The process took 384 minutes
+Optimal solution:  [ 8.81486977 13.98930585  0.82325337]
+Optimal value of the objective function:  -343.34808552594416
+The optimal Q is:  [[ 8.81486977  0.          0.          0.        ]
+ [ 0.         13.98930585  0.          0.        ]
+ [ 0.          0.          0.1         0.        ]
+ [ 0.          0.          0.          0.1       ]]
+The optimal R is:  [0.8232533707700505]
+Volume of CMA-ES funnel: 380.63845025100017
+Volume of init funnel: 9.316358121390714
+job Finisced!
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 167330.2 ON hpc-gnode12 CANCELLED AT 2023-02-21T19:09:42 ***
+slurmstepd: error: *** JOB 167330 ON hpc-gnode12 CANCELLED AT 2023-02-21T19:09:42 ***

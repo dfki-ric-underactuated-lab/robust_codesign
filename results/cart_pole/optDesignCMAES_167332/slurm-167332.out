@@ -1,0 +1,999 @@
+***************************************************************
+============ Job Infos ============
+Node list:
+Job Id: 167332
+Job Name: drakeOpt
+Partition: standard
+Submit directory: /gluster/scratch/fgirlanda
+Submit host: hpc-lnode01.dfki.uni-bremen.de
+In the directory: 'SCRATCH'
+At the user: 'fgirlanda'
+Python version: '3.8'
+‘***************************************************************
+Defaulting to user installation because normal site-packages is not writeable
+Processing ./software/python
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting argparse
+  Using cached argparse-1.4.0-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: cma in /usr/local/lib/python3.10/dist-packages (from robust-codesign==2.0.0) (3.3.0)
+Requirement already satisfied: filterpy in /usr/local/lib/python3.10/dist-packages (from robust-codesign==2.0.0) (1.4.5)
+Requirement already satisfied: ipykernel in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (6.7.0)
+Requirement already satisfied: lxml in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (4.8.0)
+Requirement already satisfied: matplotlib in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (3.5.1)
+Requirement already satisfied: numpy in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (1.21.5)
+Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (from robust-codesign==2.0.0) (1.5.3)
+Requirement already satisfied: pyyaml in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (5.4.1)
+Requirement already satisfied: scipy in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (1.8.0)
+Requirement already satisfied: sympy in /usr/lib/python3/dist-packages (from robust-codesign==2.0.0) (1.9)
+Requirement already satisfied: debugpy<2.0,>=1.0.0 in /usr/local/lib/python3.10/dist-packages (from ipykernel->robust-codesign==2.0.0) (1.6.6)
+Requirement already satisfied: python-dateutil>=2.8.1 in /usr/lib/python3/dist-packages (from pandas->robust-codesign==2.0.0) (2.8.1)
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas->robust-codesign==2.0.0) (2022.1)
+Building wheels for collected packages: robust-codesign
+  Building wheel for robust-codesign (setup.py): started
+  Building wheel for robust-codesign (setup.py): finished with status 'done'
+  Created wheel for robust-codesign: filename=robust_codesign-2.0.0-py3-none-any.whl size=183669 sha256=972ea23f6dc35b8155d9d18b1af48da93e52cca891f5807936a9170f74e90c9b
+  Stored in directory: /tmp/pip-ephem-wheel-cache-6qg15n6i/wheels/6e/eb/0d/795a89f6d72f87d018bd44d358cb3e65c2c9296e731a438b05
+Successfully built robust-codesign
+Installing collected packages: argparse, robust-codesign
+  Attempting uninstall: robust-codesign
+    Found existing installation: robust-codesign 2.0.0
+    Uninstalling robust-codesign-2.0.0:
+      Successfully uninstalled robust-codesign-2.0.0
+Successfully installed argparse-1.4.0 robust-codesign-2.0.0
+ 
+Inner optimization function evaluation (q11, q22, r, obj):  [7.777235574259722, 6.881471285598522, 9.741523296850382, -9.567805830386611]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.6420133875824305, 8.936223354693388, 8.009171297854103, -10.109686526749563]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.973073227370985, 9.269228532268407, 9.23635328560842, -7.58129881515544]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.435731224367183, 19.0371585466328, 11.052481910441715, -4.906436868750127]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.895730103237888, 4.4548940488435385, 9.382879748548701, -12.491457381619032]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.675903387462219, 7.830280912376233, 14.999730887403798, -5.339201259632542]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.897833195871407, 10.256960882850947, 14.289605276385709, -4.857707353596252]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.500218401934895, 15.046888072494008, 7.738595595088421, -6.68965179066903]
+Inner optimization function evaluation (q11, q22, r, obj):  [15.2853597254804, 7.761999634219287, 13.476941773191115, -4.869513880022398]
+Inner optimization function evaluation (q11, q22, r, obj):  [14.954548200697328, 11.63815982345699, 8.820134242574694, -5.790849731593255]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.067128867461623, 10.887338823721848, 14.11426969451031, -5.029473670337228]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.440984615323601, 8.287519979455833, 10.459017898835295, -8.91058067461232]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.893046649997393, 9.41778268646131, 7.929859776085529, -8.772028461533829]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.110901647415506, 8.667688547662802, 11.49169080553408, -9.570904254759409]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.564226738944765, 1.587938291546859, 10.209977676469999, -12.84917436827305]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.127599149766333, 11.010864662997013, 11.079679009175468, -5.789370658881251]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.861975600451293, 5.044632046457837, 12.026516831904232, -7.334017901781889]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.608031452634968, 8.233013740619864, 10.824572231681174, -6.862522792398348]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.845748421016957, 16.73234545145132, 12.599853950998156, -5.360328872875841]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.109295464347145, 11.709553749184407, 8.0919391091561, -8.649130701458347]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.769886872496523, 11.036307448713629, 8.597514202792329, -8.530826439226725]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -1.284917436827305e+01 1.0e+00 4.74e+00  3e+00  6e+00 17:49.5
+Inner optimization function evaluation (q11, q22, r, obj):  [6.417738123455908, 12.674999618702175, 6.621097494066376, -10.71436576023179]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.660652368449175, 10.666089274564516, 11.455230688411786, -10.123276837303425]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.302414497047028, 11.62120714046835, 12.386292945718443, -5.077448111980148]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.586532948487493, 7.306279783266345, 9.5676947804117, -8.788573219890003]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.83627794414646, 3.279882250836484, 14.886887524886337, -7.346312720594173]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.153657668124376, 1.4658383001974074, 9.912038239941339, -14.841667743715545]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.071629006075363, 4.197545207981633, 13.939880819602907, -19.215441562232744]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.1131639864153398, 3.55899236060694, 10.31265962387978, -20.038984108813736]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.239233422098528, 6.9211914060576385, 5.581153538766478, -23.3256011822595]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.619567771741616, 3.921072887947775, 11.809555781560473, -13.904588131460402]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.37446471905788, 15.764319659637877, 5.243546985518303, -9.462909676336949]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.869214418621551, 5.727830135879488, 12.748832137651403, -8.006005371551693]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.228233707559422, 2.815059424550353, 14.99446039972695, -6.932545859470623]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.891122044143547, 4.495960536177312, 6.488239911978189, -11.914864984401577]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.0158732937871315, 5.319606165279336, 8.272591449242078, -12.408853129887222]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.224008242633937, 11.462728808090695, 11.18631799721665, -7.836697007333107]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.983094122828195, 5.984668659391515, 12.505135508209662, -7.376605549693405]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.693088529384097, 5.8975718239091695, 9.13600538033899, -13.26811905839781]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.681782086530188, 7.557782518829781, 5.7469690005091625, -14.488091041775697]
+Inner optimization function evaluation (q11, q22, r, obj):  [19.951252999267435, 6.08922201915047, 6.874108226282351, -7.680369405785872]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9814819739532474, 8.421720744756222, 11.803171768427955, -12.939452822838382]
+    2     42 -2.332560118225950e+01 1.6e+00 8.86e+00  3e+00  6e+00 35:14.0
+Inner optimization function evaluation (q11, q22, r, obj):  [4.558851457384371, 2.440130278952834, 6.623091924335075, -22.664516270780958]
+Inner optimization function evaluation (q11, q22, r, obj):  [19.6208782483293, 1.9147639882425183, 7.94779873553134, -9.182795229052834]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.154533878686696, 4.014406337290904, 7.626449929699393, -13.560403507081592]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.947555210384529, 5.784479963287314, 13.401850036482454, -6.354037537568584]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3918351004789908, 1.0590845926856332, 8.831207578513748, -37.43326503984507]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.29102464458471, 7.873599402262303, 11.72155237000176, -12.436541080778506]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.003900325230832, 4.321329408398314, 13.247045233754378, -8.527879798479923]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.592913906721963, 1.2586007630817317, 10.07022457107305, -12.81300386829755]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.266271517373681, 7.164720311639513, 5.000499355191176, -17.143229232078735]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.875060244123895, 6.85068127070176, 5.102682972145769, -18.242728442900525]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.073885836346374, 9.201249519395777, 10.676652545160447, -8.507168813168777]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.5860407458703745, 1.226563270088937, 5.135736712338968, -42.24036566687825]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.065404362209481, 7.1086011518960674, 12.334888863804512, -10.122788632213872]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9494759128094392, 1.9647221481959236, 8.684583642238549, -28.701490969499943]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.08992809320126, 18.761380746310117, 5.006675508492013, -13.159250685006477]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.1664085247895564, 11.845858376932618, 5.937135107287935, -21.990853757079602]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.492561311807777, 10.017250622095467, 9.006773429842525, -13.703271855259699]
+Inner optimization function evaluation (q11, q22, r, obj):  [13.228425293682118, 15.010933461992018, 8.346016870896493, -5.946442788937721]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.6472351696135012, 3.1710311602075913, 9.719772523146345, -17.596817015888046]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.7825610212419445, 1.000212695705615, 11.227013861105466, -18.669773328587432]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2849321208455335, 2.1648199491931175, 6.973470201775165, -38.26532878384104]
+    3     63 -4.224036566687825e+01 2.2e+00 1.07e+01  3e+00  6e+00 52:59.1
+Inner optimization function evaluation (q11, q22, r, obj):  [2.939042741628459, 1.6671890850903823, 6.009442828111088, -33.19979390830168]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0509122107076678, 1.7394191878414003, 8.395602322144551, -38.24782227560309]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.614218636602134, 1.0003885668836472, 5.059281000359973, -33.4635616758272]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.176185922296465, 9.707858031221527, 9.482716170484624, -9.096091076643786]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.935740258537526, 7.269834429912651, 5.0060795297554534, -23.150434943593915]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.599823438296524, 3.3668737093728316, 6.3786589550892, -28.95027980012063]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.3619773011204606, 2.528447380355751, 8.813384254928629, -24.74304642090054]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.6437925578589496, 4.07722210543468, 8.737609053858218, -19.797591892756397]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.622013665204057, 15.186844624336146, 6.95745874086832, -12.773582363287877]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.6255034919382787, 6.812649290065265, 11.508436957383175, -12.561120326832386]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0009801283770732, 2.62747020992926, 6.774576522841809, -40.665404352248196]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.7136737014264645, 7.465758244970914, 5.905864367372844, -18.2891961554815]
+Inner optimization function evaluation (q11, q22, r, obj):  [14.176303963245578, 7.015578240001333, 10.348132902975957, -6.94500330532783]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.926263229068397, 8.112276946236328, 11.14354713010933, -6.351203246584236]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.127150048171387, 3.2591941708927656, 5.195400303457538, -36.69980263192406]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.618387199681775, 3.837717263465533, 5.217500410924475, -36.166033415180856]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.560602913586893, 5.893371640106798, 7.92930344513406, -11.435703097915614]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.242061002922561, 9.916187495399049, 6.365666328506472, -14.050379925943263]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.920733527343329, 6.86948649848445, 14.049918550399017, -11.463053102022709]
+Inner optimization function evaluation (q11, q22, r, obj):  [18.56030211057727, 3.6139461504449866, 10.045477069896565, -6.961267176540682]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.35904302342008, 3.8756261659080553, 9.676318194870465, -10.890428631333737]
+    4     84 -4.066540435224820e+01 1.5e+00 1.14e+01  3e+00  6e+00 70:04.8
+Inner optimization function evaluation (q11, q22, r, obj):  [4.260378979757018, 1.2535551132260767, 6.374290246979273, -28.120900876626283]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.331098756521708, 2.5101765781161225, 6.121976776496812, -20.634306489809834]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.255054910961748, 9.472559843929204, 8.018144293242567, -15.670150362675633]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.8136065583486634, 1.1570675364952654, 5.230841974833742, -35.3474583418016]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.420910799016531, 12.721823988440974, 9.692169755659089, -8.547503057513556]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.549505543547998, 1.8606660163283206, 11.212919072087683, -10.218399149957499]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.0359818007121495, 4.192212054464352, 7.396734765601504, -21.844266397600027]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.1448940054085797, 10.139096152534064, 6.592915437154359, -16.4775317836419]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.034553779778084, 1.313334261247239, 6.189060134483456, -21.648135681633377]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.185234508994878, 2.6535831459841583, 9.525197185932731, -14.671424344503908]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.7680810982337, 9.311123628860956, 7.128165542466144, -11.07110347627651]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.179974650019714, 2.8707200508216952, 5.5039068810452525, -22.25261951216013]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.845372241166383, 1.031446003441994, 9.235426566310576, -26.977791364420426]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5437722802270994, 7.249299353813564, 8.896586365465712, -18.845185069752084]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7064066464510337, 1.0103078928992673, 5.0067214677951695, -52.985051648735826]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.305025839191797, 3.2849211364164153, 5.300439183459773, -34.09811862307577]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [5.6265609060611315, 6.524752971534102, 8.251970779992511, -12.901842812806178]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.040243288168938, 5.480204368386946, 9.079063423713169, -12.195034398944838]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.217935808967919, 2.8759130714478776, 6.521910721496081, -16.171839454504216]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+    5    105 -5.298505164873583e+01 1.7e+00 9.84e+00  2e+00  4e+00 86:19.6
+The process took 86 minutes
+Optimal solution:  [1.70640665 1.01030789 5.00672147]
+Optimal value of the objective function:  -52.985051648735826
+The optimal Q is:  [[1.70640665 0.         0.         0.        ]
+ [0.         1.01030789 0.         0.        ]
+ [0.         0.         0.1        0.        ]
+ [0.         0.         0.         0.1       ]]
+The optimal R is:  [5.0067214677951695]
+Volume of CMA-ES funnel: 54.01258292873589
+Volume of init funnel: 6.985987192058237
+job Finisced!
+Inner optimization function evaluation (q11, q22, r, obj):  [5.9672388823035565, 8.185566791582776, 6.807619020172024, -15.326816090323753]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.72150110337913, 1.4074459227487701, 8.556023667411175, -15.76805592653588]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.889163269680989, 13.077389691724758, 14.420979877180809, -4.864749246563315]
+Inner optimization function evaluation (q11, q22, r, obj):  [13.74892054802887, 13.186633088255979, 8.015911950828304, -7.728834581610887]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.276833987530681, 11.850692558435373, 7.260306607980771, -9.827942912646968]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.584018703629757, 14.239109826618215, 5.531336301337617, -14.643150053601806]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.59435329293468, 6.363466925359311, 6.911123108264528, -12.383436022477031]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.716117068806447, 9.787012144678991, 6.8807769698563686, -11.36616439172046]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.112915907191098, 7.979827055891461, 9.05017883649573, -9.413053746461397]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.920715039842936, 9.338479762955687, 12.92286236470221, -6.985846088733563]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.31828412837466, 5.670575487922267, 7.856104501102399, -11.68828866582232]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.307759232561775, 8.365671297534988, 12.22995472356173, -6.809086068917653]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.841309953378682, 5.048524918950168, 6.889827407985414, -13.011069514233373]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.168182573247394, 12.22765311464328, 7.939633830074111, -8.962741435452978]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.478448963217014, 10.788483013626735, 7.364135733991229, -11.198226204821193]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.606952071671392, 12.830575432748034, 8.854109145710737, -8.201127524517728]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.333069901287661, 7.821695412312117, 10.224383966553088, -9.33476929792915]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.421217811148395, 13.299204615932092, 12.635594909112456, -6.092840585011868]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.6874630974270595, 11.960515884115347, 7.168570269748679, -11.097729702392016]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.596804032466105, 8.186561801958849, 10.541981453980064, -7.475464118052114]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.36692817960731, 8.337552726518714, 11.129735869501136, -8.765772642811767]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -1.576805592653588e+01 1.0e+00 4.53e+00  3e+00  6e+00 22:36.9
+Inner optimization function evaluation (q11, q22, r, obj):  [3.306009406985992, 16.625791377130763, 5.516888177568544, -17.18009893118122]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.855659893945764, 14.787415972131425, 8.257880282874837, -12.448875319918619]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.2300938358037445, 2.9927652620738234, 5.1770641539448095, -23.20471033252552]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.87248808800721, 4.989100336098915, 10.18748351766899, -10.884157847269412]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.446813072953, 1.0170072387270563, 10.85606378549133, -11.951486174659475]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.776120097630043, 7.31323616586457, 7.441104593006232, -11.114526262118414]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.983746581277118, 5.356494437144902, 6.795972969762365, -14.945822161320217]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.875595063457009, 7.427494788016583, 6.774728807362493, -12.498334140554777]
+Inner optimization function evaluation (q11, q22, r, obj):  [13.201589684224563, 3.104205081113295, 11.388200696333577, -9.166553260660704]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.47267263783339, 7.263883845290634, 8.977874387878238, -9.690942297050714]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.8866510283383526, 4.273176639116246, 10.393400951843804, -18.45842674474192]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.324522211294347, 12.463760375851326, 7.916448749025279, -9.922901001983345]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.514370024548731, 4.875439022640394, 7.022268675569362, -17.826475571272418]
+Inner optimization function evaluation (q11, q22, r, obj):  [14.699116619047274, 1.349780626410717, 8.058042926524157, -13.51318276998956]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.302157392319497, 1.2516403752350742, 8.036544877548458, -16.590691476140837]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.334195561907942, 3.9851617202226217, 6.175190328143087, -17.83506837482334]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.42812558062866, 3.958208871385128, 12.788841878744691, -8.691305461587199]
+Inner optimization function evaluation (q11, q22, r, obj):  [13.455279897016034, 10.684503302434258, 7.545336104441073, -9.083314075657835]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.5554887375780444, 12.247581925051815, 5.079469655913229, -21.99717003556529]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.829715150823086, 12.959818723063997, 9.60807969197429, -11.471758183054092]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.711308031054049, 1.260230402722037, 10.941706590089357, -11.523067405187067]
+    2     42 -2.320471033252552e+01 1.5e+00 6.18e+00  3e+00  6e+00 45:08.7
+The process took 45 minutes
+Optimal solution:  [7.23009384 2.99276526 5.17706415]
+Optimal value of the objective function:  -23.20471033252552
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.1687082704445044, 0.17965443146174273, 7.2300938358037445, 2.9927652620738234, 5.1770641539448095, -23.20471033252552]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.24296258430864, 1.8618786020621243, 9.414069889013945, -10.81246712548607]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2628437033974649, 5.4129291106194675, 5.082894764004956, -34.11908681381242]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.39679020651715, 5.7462285646170175, 5.415402548587574, -13.966698535342315]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.214266062417297, 2.194488042567713, 6.480651618191252, -17.12983551781072]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.9769152863868005, 2.6088609652026093, 5.060871364518221, -24.512592224835053]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.320026498623651, 4.110567789654755, 5.953444342394631, -19.036202571821836]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.322958945978831, 3.606734947947295, 5.153616974668929, -16.074642353389695]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.130276054118312, 5.798906698700261, 10.300813537478334, -10.81869916070841]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.771625981063968, 2.0490533180333186, 8.836431044871105, -14.861165888050555]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.96687758529732, 2.9057562727686035, 7.984705582018181, -13.48367302675924]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.465407240048874, 5.545338576864856, 6.192198146062067, -27.019884872746537]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.203186223618161, 3.6248738868718284, 6.679119479181173, -12.825828432780602]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.215890353990594, 4.889486790803054, 6.4101334040614315, -18.164545269193436]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.384785648760163, 4.1039884411242635, 7.453927179379046, -12.194209497183705]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.28729556068247, 7.394579924973584, 8.983715624546436, -8.730175835526595]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.9741911177352103, 3.108650645292006, 9.433287480988259, -16.486251018254894]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.8132524136380663, 3.5635579180074757, 5.697698252473536, -23.80201410786912]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.512195061954293, 5.860905353109585, 7.140653737100035, -12.0041132033971]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.082469010662999, 1.2918915615671809, 12.12760619738258, -10.175406636840998]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.4799897151756465, 2.380321540571833, 6.153140083785785, -21.10897206594058]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.6238143417009336, 2.255990306025887, 5.214956765025235, -34.64373003046526]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -3.464373003046526e+01 1.0e+00 4.15e+00  3e+00  5e+00 23:09.0
+Inner optimization function evaluation (q11, q22, r, obj):  [4.683393828957576, 6.426864352414663, 6.1535356127711385, -16.695581133560495]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.227862931709598, 3.9417006351594903, 11.17030206997898, -21.49797519469875]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.786951722615889, 2.880435851070887, 5.0328748279956, -27.220400818124723]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.65251722083503, 6.840674458410454, 6.258629156946912, -15.209879729975087]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0227030829397348, 3.307519867525101, 8.466955391765879, -29.310666175247817]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.4113099859484, 1.8761450590193458, 5.0255113440548405, -19.30947182175426]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.040062910189139, 3.264333783588465, 5.0543733221839675, -23.254665431000817]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.171974873437125, 7.857041120815826, 7.904315115726078, -12.795569785323314]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.515261614672045, 4.424446070788743, 7.021746877810596, -13.141566233788602]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.266144606918003, 5.677269800797186, 6.090667671173281, -15.336572423984958]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5126170551232174, 3.135707628171829, 6.545251562744093, -32.286603663793784]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.450541051934512, 1.2400202923955634, 5.464487885618661, -39.69996128332303]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.861723667999156, 3.869261466229708, 10.331034331198529, -11.786160016821176]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.083801272039356, 1.844810996096632, 9.691918150971349, -11.28143157010074]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.211763627814229, 7.389187790565602, 10.226650298651917, -7.996734646272655]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.680134851894375, 1.0796598818279843, 5.1858783143460725, -30.833797454997445]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.732690363305046, 4.809372523184622, 6.493679420216878, -17.86082821719722]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.496986341263966, 1.8723390942431848, 7.214143405800847, -19.88119783806391]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.374033700095142, 4.216794495349886, 8.762502328009369, -19.47953231265601]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.598166767168695, 8.727276057313343, 6.783437285954923, -13.401868184804876]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.761607415003557, 5.283240437530214, 6.0420163659545665, -16.255341327158753]
+    2     42 -3.969996128332303e+01 1.6e+00 4.60e+00  3e+00  5e+00 47:51.0
+The process took 47 minutes
+Optimal solution:  [2.45054105 1.24002029 5.46448789]
+Optimal value of the objective function:  -39.69996128332303
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.23015985188908356, 0.18882636714836618, 2.450541051934512, 1.2400202923955634, 5.464487885618661, -39.69996128332303]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.3571936292291804, 1.0367437167497116, 8.620489853932366, -31.26426120191575]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [10.315718631161346, 6.27131649393008, 6.6764309685012275, -12.980979392006645]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [6.3635138681691865, 2.675227336594888, 6.3832470380466235, -19.935571353770722]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [5.561895053863972, 1.3494022711844735, 5.102593185799991, -29.75805806081667]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [8.187346384638541, 7.59506331889737, 5.9028065166039, -15.427659483528775]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [3.3352199671097478, 5.163954921216341, 5.8403987905745245, -23.450044542086296]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.431341320368974, 7.782248343404654, 6.20451652956758, -22.121712125730177]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -3.126426120191575e+01 1.0e+00 3.00e+00  3e+00  3e+00 20:12.9
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.4751283419265206, 3.8437559998954374, 7.558682338670774, -23.70377803563823]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9956889026892397, 6.241541886378394, 5.1501028951308365, -28.362528294990856]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+    2     42 -2.836252829499086e+01 1.4e+00 2.54e+00  2e+00  3e+00 27:38.6
+The process took 27 minutes
+Optimal solution:  [2.35719363 1.03674372 8.62048985]
+Optimal value of the objective function:  -31.26426120191575
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.1509435851618821, 0.21400915574682666, 2.3571936292291804, 1.0367437167497116, 8.620489853932366, -31.26426120191575]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -1.000000000000000e-04 1.0e+00 3.16e+00  3e+00  3e+00 70:01.5
+The process took 70 minutes
+Optimal solution:  [7.58981521 2.48125777 6.65202254]
+Optimal value of the objective function:  -0.0001
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.21506993096575625, 0.1798569949366055, 7.589815214305529, 2.4812577669302707, 6.652022538281061, -0.0001]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [11.225443590110196, 3.7143292064087445, 8.415604508609338, -11.524760028930075]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [4.863643800606548, 1.4921768024831934, 9.005676840877129, -20.925065300203805]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.8499645785539265, 3.364747847837781, 5.036675350057885, -26.525908537328604]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [9.13701998323044, 4.850523340311637, 6.5180929584181575, -13.95561932654289]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.874379777169956, 4.782568285542869, 5.380416137092702, -13.714599983258951]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.165896974934451, 1.268659051787068, 9.851288212996554, -14.3195398497551]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [4.579421876755683, 7.443457008139078, 6.71510138485958, -16.614019688861312]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [13.07415713127849, 3.035384462202181, 12.967787005919734, -7.835126164057913]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [9.028600052081126, 4.498761544127002, 5.17412198710257, -18.285886774266505]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -2.652590853732860e+01 1.0e+00 2.59e+00  2e+00  3e+00 54:58.4
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [11.062725985004295, 2.886845269485148, 7.199783665541112, -13.59609975711452]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.263153501626211, 4.774114896210943, 7.923810834079855, -14.647058257226005]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.814562561938655, 4.764531969145361, 7.287943094219437, -14.3114804751701]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [9.482488647789273, 9.086918178031704, 5.017304749860979, -13.39574303858923]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.960090262897053, 6.255289701708871, 5.012579977126359, -17.08952484689816]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9615122267914025, 3.885614622701888, 5.145656078985444, -36.249688243274726]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [4.981549530513153, 2.567654931048657, 7.179461164899309, -21.644494819305834]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.314736727748156, 3.0837324226354252, 5.361684873804865, -34.48235323684317]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [9.467460252096828, 2.064582328668355, 5.029073416141504, -21.298426156020113]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.214226231835055, 4.3257910827535975, 8.26522158195935, -14.956069135872928]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [3.123365147522464, 2.4110521477104934, 6.492809983267402, -28.877755119684917]
+Inner optimization function evaluation (q11, q22, r, obj):  [11.666555215653148, 2.9256769663875457, 6.288554704280987, -15.069724175539477]
+    2     42 -3.624968824327473e+01 1.2e+00 3.27e+00  3e+00  4e+00 102:11.6
+The process took 102 minutes
+Optimal solution:  [1.96151223 3.88561462 5.14565608]
+Optimal value of the objective function:  -36.249688243274726
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.18497957663579523, 0.17780694520925217, 1.9615122267914025, 3.885614622701888, 5.145656078985444, -36.249688243274726]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.42609404669155, 2.712753395619874, 7.246806886943996, -22.61139811703172]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4646875681289044, 2.651244374735496, 6.913218315556323, -32.31797647853405]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.4030159748539703, 1.5914890974463822, 7.9276759618894355, -28.872870475671437]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [5.053063332378963, 1.51122053292532, 5.534674853484931, -26.380695862349512]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5375538528258719, 1.055420533414455, 5.040861909011505, -53.14823133122219]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.3637440273500885, 4.064389365360225, 7.17126370804881, -20.324489476871207]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.713260231673921, 6.821987635937836, 6.67869099393605, -21.12183377017252]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9597779623220117, 11.186001682977938, 5.169754031260769, -19.81361382426973]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3195744893615777, 6.373479414424752, 10.847549277531465, -16.654094627103884]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3316975468903678, 2.1709458743633023, 7.465249668783967, -34.11883830677727]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3560281422955685, 5.263774028074717, 5.772611836723816, -29.95719133041566]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.895316264129563, 6.11211259065578, 5.005864638048585, -21.936914846235368]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.6751044023157253, 2.1500209684061167, 6.494725033464777, -29.578651071131453]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.038718864302537, 1.8982011897407634, 7.698042242343101, -29.095927541963338]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2839402335940195, 1.9203794494255075, 5.028346968645712, -48.24131899935149]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.6814328847667475, 6.016952641415224, 5.422150077133282, -22.77435072043986]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.94396443092138, 1.9680247825006472, 5.195916577422028, -23.739254495294286]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.568910514615724, 3.7789467656123517, 7.250563945180595, -19.830234572628196]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -5.314823133122219e+01 1.0e+00 3.01e+00  2e+00  3e+00 14:53.7
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.7815418559116476, 1.0075095700951882, 5.001882632321933, -40.994888075098736]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.860171755620892, 2.126493045350289, 6.313034243083488, -25.077486236227504]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.0505764859151574, 1.1784998650480054, 5.955865266283084, -40.39154632549242]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0006443243747798, 4.529522844350779, 8.42384970554901, -26.420066761275827]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.078711399844909, 4.92934560049788, 5.105876760082998, -18.590975094165344]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.6278370373829423, 1.0184153111275134, 5.105430287374949, -50.71979501771439]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2383613053125726, 5.987820208829132, 5.413296062783293, -30.167113176647916]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.9893269708761263, 7.799744326176151, 6.706612960007073, -16.802699550934282]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.6405085554738308, 5.634111499957417, 6.296626483340386, -24.769023544485055]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.3540580089355965, 7.152800268085861, 6.031552432651523, -20.595655133366837]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.109139733565576, 4.896158116908852, 5.460711510383281, -26.933534713006125]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.013229551101008, 5.015390046426898, 8.897940458395944, -23.787520457540452]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.365587740657704, 2.7155231488462426, 6.4336279573237825, -28.708835919241224]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0281298939977324, 2.0123469535427847, 8.608636172861242, -34.40607561245359]
+    2     42 -5.071979501771439e+01 1.5e+00 2.66e+00  2e+00  2e+00 28:00.6
+The process took 28 minutes
+Optimal solution:  [1.53755385 1.05542053 5.04086191]
+Optimal value of the objective function:  -53.14823133122219
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.2632536354920627, 0.17799032435570852, 1.5375538528258719, 1.055420533414455, 5.040861909011505, -53.14823133122219]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.1617028897215125, 2.417388647826877, 9.388686994323262, -28.066538924105323]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.7966331967338007, 3.126154823199095, 5.464982410617786, -24.014393914499603]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.2453736032042446, 1.883697248970562, 6.792908678024894, -25.50084781560696]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2084949953749486, 1.4772417180609163, 7.947627322664449, -28.725371724719]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4449311626837475, 1.6201770062890855, 6.585996019049687, -38.42033105617603]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.206231331733317, 4.042687804365885, 5.207518326330718, -17.09888456457149]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.016879248144823, 6.471623557910084, 6.574211021916506, -13.961467333624878]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.304467598471668, 1.156343417631595, 9.325973191063117, -19.21399484046067]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.042829900459579, 1.9440092841534704, 6.590987348124223, -20.933871251911928]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5297286918821997, 1.0982220672384349, 8.62422947049857, -33.31285738469983]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.853442479610955, 1.5594843306566322, 8.172829646197123, -29.726305584330582]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.143706993775022, 3.419167599833063, 6.906428836615128, -24.98405983276998]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.9415502828379445, 8.22815102165923, 7.716960371339111, -12.300955349960994]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9184223059837187, 1.675207480130747, 10.14238027281364, -24.27026585864974]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.014351740284321, 2.018715444628537, 6.715842471021754, -40.15721736750286]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.92673371812064, 2.5748854547964957, 6.3661520141846, -20.06307406188832]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4650397205545387, 1.0405416197883444, 10.9688164095325, -28.97944982593966]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.399599950059448, 3.0377810750935006, 6.8592002050055205, -17.02178046059312]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.6048718966637576, 5.948267696132396, 8.765358728024317, -13.328453447068966]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.934260966318424, 1.784293230908785, 7.63741927052254, -29.500823898071033]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.037738514276338, 2.5793697021612645, 5.393507579600797, -25.253164218458608]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -4.015721736750286e+01 1.0e+00 2.36e+00  2e+00  2e+00 28:24.6
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2930216858394816, 4.17237192444593, 5.005252206947743, -29.140339678660396]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0587218975066055, 2.758163710176939, 5.214109955117965, -43.26932861604263]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.385877769418229, 1.5622752800323965, 5.629054405077549, -30.443921687487887]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.227369341303451, 4.0827198113672125, 6.923989877565167, -14.29671584929572]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.612677307788433, 3.8225892073404215, 6.04796122075632, -29.837449329198282]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2907800551966098, 2.62403022864239, 6.481628110985902, -28.301345001792775]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.0007424983202746, 2.630026387986522, 5.778408622456915, -27.250799887158962]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.8194004149722378, 4.375474507440524, 8.345197396387636, -20.813668439778617]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.708245028697046, 1.067328489503719, 9.249500292309015, -24.83737563977665]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.066420267736338, 4.16210784102282, 6.49206973534003, -30.930907488213563]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0000003648109006, 2.627542380945623, 8.483718030932518, -31.05800265257085]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.832075984740339, 4.011995779612681, 6.382819909200398, -26.36034431397024]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.788442325109112, 1.9264137504244787, 5.477984310001521, -32.527574096483505]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.8248407035196927, 2.173275045642622, 8.420127596323063, -26.473016557699328]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.2981345368513977, 1.5813525606453915, 5.190999825902723, -32.649970209272986]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.474887763186928, 2.3545945165699314, 5.140154631290734, -41.58629576929114]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5934607988291485, 3.344392922886765, 5.6038275892397085, -33.73790052306379]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.152773224873618, 1.353682809056326, 7.425787271648591, -30.921088522516122]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7009097522144128, 2.774940182623634, 5.00002065820929, -38.13982654208815]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.4089115236210925, 1.3530007880801906, 6.0824238354640965, -29.329344990724774]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7860127963567536, 3.1489062356290987, 5.185683153320872, -35.216183807487326]
+    2     42 -4.326932861604263e+01 1.4e+00 2.01e+00  1e+00  2e+00 57:49.3
+The process took 57 minutes
+Optimal solution:  [1.0587219  2.75816371 5.21410996]
+Optimal value of the objective function:  -43.26932861604263
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.2884925684503918, 0.17786094896658255, 1.0587218975066055, 2.758163710176939, 5.214109955117965, -43.26932861604263]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.7049744232722563, 4.884494092085065, 9.592336119806259, -15.89647240491147]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.4277362913897766, 2.487931861228263, 6.739574781563012, -27.651157937967398]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9526823446959083, 6.375295101060677, 5.962588757743182, -23.24882596540275]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.779741354164512, 1.1386871919792378, 6.161442276293808, -23.745494278480884]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.053223442073663, 5.745236303981228, 6.376993904532964, -16.094066306565885]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.667995744738114, 3.762790192341595, 6.72272006572592, -28.301369867492035]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.951696171379781, 2.9641511229600104, 5.0303128933821935, -20.3741025936647]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.745447865227389, 4.8734925448805715, 8.606277389712517, -11.553472811571408]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4657162946510525, 1.5905018574397125, 9.80204005057277, -29.19621285334636]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4597526182304186, 2.3377428575998653, 5.537758120304146, -39.95060831837395]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.1890424160093485, 2.640939577354136, 6.9734710284128845, -20.98987133243879]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.556624389103587, 4.151654487688601, 12.436466484624317, -12.330079578476195]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.87751624377177, 2.6464070643035518, 7.617498085805159, -27.779900579241563]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.723046254314105, 4.221243270332421, 6.540497183395903, -19.971580135483542]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.124883538322212, 4.669470948005301, 5.2415406008985626, -16.517750429275825]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.920319973599744, 6.837447106414962, 7.632874531832629, -15.982651904644774]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.818515059747451, 2.0194693757589133, 5.302626089868241, -33.287663235562675]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.4110687408686795, 2.0271676558533374, 5.750565376031804, -34.273729247453964]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.250502775568403, 6.973131447537003, 6.860224008299905, -19.08651636032442]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.836560082420122, 5.818827845056154, 6.236029680120716, -24.60642720909413]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.7043303576152455, 5.22317021862006, 7.877717034520643, -15.592653833331266]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -3.995060831837395e+01 1.0e+00 2.68e+00  2e+00  2e+00 15:38.3
+Inner optimization function evaluation (q11, q22, r, obj):  [2.4891217389349634, 5.509302116014425, 7.19685941483202, -19.286613922162083]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.265730648616372, 7.677464897996513, 6.113452348215386, -15.912536396903324]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.3438752838024546, 1.2428329401818712, 5.508957178164875, -39.607196390192854]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.1909227056740885, 3.445866428984778, 7.446839378362608, -30.227434188672955]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.523293288722158, 1.4045570166559052, 6.044580697121118, -29.903146395778933]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.557594957075253, 2.538202301251136, 9.15022299196453, -15.183779826620826]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.0777485333565933, 4.193025496827584, 5.674201552091403, -23.911993534108813]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.4050368080320843, 1.000261869062438, 6.4892201059186, -35.84505766318457]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.420810768134677, 1.757149487293286, 7.327630270843308, -28.934078593733233]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9700643367517103, 5.483187274579344, 5.80212301708257, -25.869774558970317]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.6644324799804897, 2.1842994038520067, 6.736745877277977, -24.48713819584483]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3739393488808835, 1.0868233089930222, 5.867079192719779, -48.607731174713265]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.736220228267152, 5.75234661708208, 5.552096901952221, -22.991639251185315]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.7996675058616756, 1.3042248030527073, 6.065939638017061, -29.285231641303387]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.705565827108234, 3.825700156085676, 5.598766283083108, -19.10992766022753]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.96355715652237, 2.1192845654726504, 10.93670247453413, -16.19680532318889]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.1821507024156634, 5.100296292211526, 6.059779222139455, -21.192624462179356]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7534791677892085, 1.673634039139323, 7.017385186491667, -34.71813889082569]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.0774578085486772, 3.9426981625394655, 7.745006125442959, -22.49986832276102]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.8994513220494382, 8.683861695424364, 5.009875929744604, -17.677124561466062]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.239900237785112, 2.5669685473614017, 5.206121424074738, -22.32403185086437]
+    2     42 -4.860773117471327e+01 1.2e+00 2.40e+00  2e+00  2e+00 31:41.6
+The process took 31 minutes
+Optimal solution:  [1.37393935 1.08682331 5.86707919]
+Optimal value of the objective function:  -48.607731174713265
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.2611036270317031, 0.17802892771559906, 1.3739393488808835, 1.0868233089930222, 5.867079192719779, -48.607731174713265]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -1.000000000000000e-04 1.0e+00 2.96e+00  3e+00  3e+00 4:19.6
+No trajectory founded, probably due to a bad design...
+The process took 4 minutes
+Optimal solution:  [5.53273886 1.42902043 6.10094379]
+Optimal value of the objective function:  -0.0001
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.12954849542023392, 0.24045504073754803, 5.532738863308547, 1.42902043108388, 6.100943789757898, -0.0001]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [6.9013117886464785, 1.3336138199373553, 7.179732247115245, -23.224223441821923]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -2.322422344182192e+01 1.0e+00 2.71e+00  2e+00  3e+00 6:23.6
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [8.087168219683443, 6.728889301759995, 5.126064145999547, -21.83037602037278]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+    2     42 -2.183037602037278e+01 1.2e+00 2.35e+00  2e+00  2e+00 12:28.3
+The process took 12 minutes
+Optimal solution:  [6.90131179 1.33361382 7.17973225]
+Optimal value of the objective function:  -23.224223441821923
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.13462904803412318, 0.21202842641793399, 6.9013117886464785, 1.3336138199373553, 7.179732247115245, -23.224223441821923]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.927823511746324, 1.3929548861158063, 5.001044377564974, -37.71375905823154]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.432971669785562, 2.6861192731128973, 8.219142288145676, -17.315194131553202]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.755437582611151, 3.4454419961887197, 6.501606482485118, -17.71558174712826]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.366807475446493, 6.300534273735652, 6.515884848111064, -13.249253975257252]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.008042131869272, 1.3049114359200527, 5.660551386502396, -34.466924297918176]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.717348243712372, 3.826121135314221, 10.345176329001674, -12.111228856469742]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.62145297209652, 1.6601968907746931, 9.680323869527534, -14.643925039936882]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.521627970994131, 2.0817361006359185, 9.369352974432722, -15.293123725660763]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.48130512770482, 3.9915568311535656, 5.808495870919623, -21.94096938103832]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.168843936390015, 3.561631779036997, 9.16078924291663, -17.997756330350924]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.965200038933864, 2.3386713091659823, 5.517590479335993, -25.233076738621957]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.45709682788967, 8.447714263486759, 6.373129670243385, -14.443511027515127]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.112536006080699, 6.402192496942461, 6.038141601960111, -19.456468292623672]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.486196991715152, 3.3139114108697676, 5.751657717206326, -19.114960935405463]
+Inner optimization function evaluation (q11, q22, r, obj):  [12.453527271285393, 3.1088975407361596, 5.08740725570109, -17.035347186999545]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7869171637084078, 6.207681083312771, 10.394069206267694, -18.465501496565835]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.716052042326988, 3.087296698671916, 8.907492688366531, -16.29075117871372]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.389919416158332, 2.7616760262376374, 7.432086070708954, -14.258911559131034]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.603627452596808, 3.4351210372394414, 12.26840652173781, -9.654678972220188]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.802351539328948, 3.648061230488379, 6.159995135868523, -16.88432480719036]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.511082736520926, 2.0085073882000697, 8.504461789224864, -16.920863003529945]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -3.771375905823154e+01 1.0e+00 3.62e+00  3e+00  4e+00 17:51.9
+Inner optimization function evaluation (q11, q22, r, obj):  [9.484837439749331, 5.700111840049328, 12.439571155692843, -8.440516192367554]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.159467344885942, 3.9714585881517697, 5.23329514089084, -25.218225937427263]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.0550709313191704, 5.53006053665373, 5.15779707051504, -31.97036460679319]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.2683907136538055, 1.1127929263160412, 6.740580608985562, -26.48268977845278]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.1917958681063956, 2.553428311285379, 5.911055407728842, -36.118814856534]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.544639484337287, 2.5953336618010736, 5.363709170899912, -24.360059337878347]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.996430662235667, 6.716612280762735, 9.196348263298034, -12.911658588248873]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.48786465819955, 2.2114654118305728, 5.036575806668986, -26.56888640281065]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.807799805243798, 5.39090507176363, 6.204163477505071, -22.681203533438023]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.5896572980015886, 1.0091386744475785, 5.508275927925974, -38.20107912334702]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.63456386320805, 7.719290395194296, 5.269252817208142, -16.862595435031153]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2282994023595704, 2.8916344703865065, 7.23155066550288, -30.716041129790796]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.049331218330451, 4.354113661699365, 5.223675417363868, -24.97236342027844]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.308419051306185, 4.879005390685274, 9.940024035880068, -13.820491643654492]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.361697756407444, 1.787266116709439, 5.572464799305206, -28.3272841633781]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.1775144486779, 2.465660599307947, 8.987427880945425, -15.687754418774153]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.326819967844704, 2.0442927510969118, 5.212487704029732, -27.19819844043196]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.828556208873324, 8.234357799990173, 13.135114958238427, -13.104702588086619]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.90217845823293, 1.4325668023223124, 9.0000997661483, -19.50549504135659]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2437514847635827, 7.686591255923831, 5.555509765568555, -25.27637399116675]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.137513028402141, 7.363045847307138, 8.25560860814371, -13.380970727734622]
+    2     42 -3.820107912334702e+01 1.3e+00 3.62e+00  3e+00  4e+00 35:24.7
+The process took 35 minutes
+Optimal solution:  [3.5896573  1.00913867 5.50827593]
+Optimal value of the objective function:  -38.20107912334702
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.18553466514051076, 0.17780052395657783, 3.5896572980015886, 1.0091386744475785, 5.508275927925974, -38.20107912334702]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.907798276116567, 1.6509768340562, 5.20461179955225, -38.93671780678686]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.857775177008465, 1.2474339412467919, 7.429795279265832, -20.319538095311405]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.9971310608298554, 3.6581189793219733, 7.533947066945816, -18.402359431820116]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [3.778581907958427, 3.198035691564983, 8.012440677260162, -16.553652194638754]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [5.77296058564929, 3.5821623865424552, 5.177698396074397, -18.487730292033238]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [4.282866049191118, 2.5202132203119425, 10.02159441403015, -14.266160768998636]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -3.893671780678686e+01 1.0e+00 2.95e+00  3e+00  3e+00 8:32.2
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [3.736174372727813, 1.6537304525657595, 5.005832815479958, -29.723786476531366]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [3.253617465893427, 1.7271942660984225, 9.152213400316086, -19.548356302801942]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [7.847739212698634, 3.1430803462269337, 5.0832517224270415, -17.303532306827627]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+    2     42 -2.972378647653137e+01 1.3e+00 2.70e+00  2e+00  3e+00 17:53.5
+The process took 17 minutes
+Optimal solution:  [1.90779828 1.65097683 5.2046118 ]
+Optimal value of the objective function:  -38.93671780678686
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.290941308240536, 0.19189734492842186, 1.907798276116567, 1.6509768340562, 5.20461179955225, -38.93671780678686]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5884310494784895, 1.5792235600974294, 5.088136166191718, -55.475028829930956]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2916918372335748, 2.8546871815213817, 5.022649441587821, -51.68293570619083]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.665107172272815, 1.0086340613902094, 6.762884026085947, -27.830809328735754]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.62269829014282, 3.0808744310570235, 8.631840468697117, -20.41899553976433]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4039330732576054, 4.599352557073734, 5.010844800497281, -43.499950610902644]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7908932170553808, 2.3790663431069783, 5.28069788883737, -47.36740753964743]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.602284035491149, 2.4099651184239597, 7.429747880825656, -30.689891306468162]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.372890522432797, 1.26426479513425, 6.549342428269876, -23.87943469315598]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.299673787082837, 2.867011941927977, 9.29292780460121, -14.427055968867668]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3336108233572124, 4.102171887903201, 6.541839405420671, -36.93317395360193]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.0848782567383353, 5.397452447874092, 6.031668495936999, -30.88536858078662]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.12029724527037, 3.533359291452582, 5.0246044924966355, -28.598655346193084]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.47106614490534, 1.4406188999959522, 5.89666363543454, -27.585291459046818]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.5195453047118064, 3.407044633305827, 10.760895964450786, -21.035562556114225]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.6550708427618115, 3.155743892266087, 10.591397604768451, -25.488371731441482]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.072094246073505, 1.3417153937787598, 5.315195863138023, -33.81261039659811]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.322564076806424, 2.2038951403528237, 9.940865195781825, -22.651362455702703]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5411498558744996, 4.34145541674137, 5.864936988868431, -38.194508859467994]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0690047482900664, 6.965648426379831, 10.797845780354304, -20.436401622402105]
+Inner optimization function evaluation (q11, q22, r, obj):  [10.236651457959793, 2.8608846004979336, 5.192828181557931, -21.021262492423663]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0540581737510657, 3.496473911842945, 12.17442459316757, -25.565415709956472]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -5.547502882993096e+01 1.0e+00 2.64e+00  2e+00  2e+00 25:43.3
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2732225379130613, 4.284395113498239, 5.07626199179605, -38.55672740847942]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.224739463912131, 1.3132107283220684, 8.825896570968172, -25.09199268776599]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.6935309778333765, 3.890810443079002, 5.036880123412197, -42.11529179321671]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.709548520105952, 2.486871863140043, 7.789713884707001, -34.23178538822665]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.6492120869878553, 1.0030764333637836, 5.004065726896709, -60.85562790637219]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.5333557284114168, 2.8137969499656323, 7.632121804407193, -25.150883850073797]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.0943724896482108, 1.6480133627870668, 5.608742862009273, -39.874120495112145]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.902780496343052, 1.3084945263809586, 8.982990266708295, -29.908554025610197]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.145475385810127, 1.0293497205961557, 5.955291631521062, -49.19501542686854]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.1952213632702615, 5.716357384105956, 5.716111271360251, -37.13149911238198]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.598993690512974, 1.9559239200631193, 6.625474202989043, -35.460960580600506]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2338485204724825, 1.999762857808415, 8.20479140272871, -31.88909411765659]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.1825943278547575, 2.0138550640701363, 10.098766230852013, -27.32086615682938]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.0206392036397025, 1.6049931477801358, 5.002562432772088, -34.2697547740151]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.002782232574261, 2.071971811042172, 7.164659339580702, -46.702637811082376]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.660846535663204, 2.417158207001786, 5.066420682891835, -41.27744367855473]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.730962748914365, 2.8393853843739114, 5.079612775101564, -31.28961859918811]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2171816039764964, 1.9260995198166402, 5.32768914295048, -44.8074804463647]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.129614187224458, 1.0879300628939683, 5.105727014688296, -40.05742116891207]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.804028367794186, 4.389074137262153, 5.767221636538839, -31.066917517789147]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.938596123270702, 1.604573750256457, 6.631156965290736, -42.18752571257141]
+    2     42 -6.085562790637219e+01 1.4e+00 2.39e+00  1e+00  2e+00 51:44.3
+The process took 51 minutes
+Optimal solution:  [1.64921209 1.00307643 5.00406573]
+Optimal value of the objective function:  -60.85562790637219
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.15636894406517965, 0.1795740110011669, 1.6492120869878553, 1.0030764333637836, 5.004065726896709, -60.85562790637219]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.451127846807751, 5.672691867736485, 5.0030314216947875, -35.867224286331236]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [2.949682191119539, 3.7651997242552673, 5.0269433773368535, -39.881542415876865]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -3.988154241587686e+01 1.0e+00 2.66e+00  2e+00  3e+00 11:52.5
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [3.8892892142149393, 3.034391859160925, 6.0277069524689, -29.168055957234]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2395988085641376, 4.399444096300898, 5.00237857930549, -48.581835625245475]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [5.650660996601625, 5.358368226651924, 5.0012406339242945, -29.66093145765918]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9829049477340779, 1.9537818932857363, 6.667626923605821, -39.26758861200304]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+    2     42 -4.858183562524547e+01 1.3e+00 2.70e+00  2e+00  3e+00 38:18.3
+The process took 38 minutes
+Optimal solution:  [1.23959881 4.3994441  5.00237858]
+Optimal value of the objective function:  -48.581835625245475
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.14652642203685273, 0.1821589575233057, 1.2395988085641376, 4.399444096300898, 5.00237857930549, -48.581835625245475]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.957062562046848, 12.638739148630286, 6.455020149242724, -27.856527986168636]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.6405735404561494, 3.9989331565621846, 5.177823436121814, -47.64377222169785]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.826544724099853, 4.876541110071559, 5.171923506369554, -42.72250348485667]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.8475773130037076, 1.433391634466535, 7.739868904256505, -32.77229633955527]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.59210684262833, 7.622900017016975, 5.014059431540205, -34.82535747261727]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.625747639416383, 1.2951106937894261, 9.155892506404676, -21.184351065411903]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0130515130918605, 7.247250302881449, 5.244996161917111, -51.40473338379259]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.1927100781563498, 7.114189313366272, 6.268553963068641, -30.003233356761655]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4474043339896947, 7.004047188658085, 7.71055540239119, -26.131067489436617]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.192938686992334, 4.635371565801003, 5.109367279798707, -44.76393411252146]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4798194360008257, 10.134032609444112, 5.006886396265915, -50.252940564975816]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.4408288757994105, 3.4979847978896643, 5.008840695407059, -41.66609535446966]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.676219618738132, 7.095312899718955, 6.308392332784962, -31.034340459456587]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.4653374072159, 5.356954721758709, 7.471747158891071, -20.023644656913188]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.2678188919588163, 4.958004690436771, 7.2119974075265105, -25.543934620502412]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.237704049319901, 4.022916069452051, 7.817408285060575, -33.67871673337914]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.9959766103385324, 1.9372688053469487, 9.277332949551948, -25.496393285308]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.065612167880258, 9.781899036146886, 6.60308853672162, -27.067213837758697]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.460196021512452, 4.574611482285173, 7.341353199815419, -22.061271801886583]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.58000968688118, 3.2085079475513103, 7.707212360444591, -24.522324730580337]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7929456486817126, 3.2156624441970534, 6.932845762353804, -34.36775745156234]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -5.140473338379259e+01 1.0e+00 2.96e+00  2e+00  3e+00 42:46.4
+Inner optimization function evaluation (q11, q22, r, obj):  [5.909291566714835, 7.876128400328479, 5.5074146608574654, -29.895768946813114]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5811771752098451, 5.362845207127196, 6.416285498737805, -33.82872080504835]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.693028344963753, 3.8096587627629654, 5.681292589491984, -30.29942945395577]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.191077785786643, 3.674138954931297, 5.513824927033343, -35.529589840891525]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.799927107902, 6.592549250557664, 8.27421384632343, -16.445717942633173]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2716902367303216, 7.827126538543841, 7.615618702748482, -25.179808828603655]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.494084599220951, 1.347659705379183, 7.7337270469485, -34.461322311521656]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.2716534720734076, 6.250970857771569, 5.000001283168926, -39.90399952781233]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.19266273921166, 1.0258029808152773, 7.258437786894967, -50.95348458481381]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5500944526996427, 2.4508761438052105, 7.0589462167809, -38.84425895273871]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.5804610703204425, 6.44535065287816, 8.16280056664657, -17.50148247843059]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.324916061092198, 7.2948783963988735, 6.115554569680305, -32.89406530591393]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.897853419632333, 7.804092887173034, 5.029173873688205, -43.35628140108652]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5650996681724898, 9.856726404580641, 7.733696065333752, -20.999816205392527]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.006491016279281, 3.3244250933393693, 7.509262388675068, -24.299086592399707]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.0010717252289405, 7.70604426822907, 8.023988709332164, -18.96124320068698]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3167294053860108, 1.3857519193292307, 5.63746512223323, -56.01195070830843]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.5031880269404605, 8.096241720144128, 6.086360452486342, -33.686547271527914]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.79570878876089, 1.3338970308493003, 9.150365423236655, -29.06366082307483]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.855674056162792, 9.775749102405614, 6.034011676871312, -35.128622509932114]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4886464967489639, 12.535197920479376, 7.086858967948398, -24.635693941307284]
+    2     42 -5.601195070830843e+01 1.5e+00 3.31e+00  2e+00  4e+00 85:32.6
+The process took 85 minutes
+Optimal solution:  [1.31672941 1.38575192 5.63746512]
+Optimal value of the objective function:  -56.01195070830843
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.14626078775451504, 0.1908381309336881, 1.3167294053860108, 1.3857519193292307, 5.63746512223323, -56.01195070830843]
+Inner optimization function evaluation (q11, q22, r, obj):  [9.009837300429053, 1.2403943899337664, 9.11779040411552, -18.087636863709584]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.568322503947582, 2.9898018681092333, 8.706528294386192, -32.6864648693169]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9056463453877175, 2.2424229082845617, 5.554979370610537, -47.86178370840411]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.942145723372681, 4.708080017334255, 5.355597052639172, -28.661495086733463]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.112474638028279, 3.36149967140004, 9.684381370078107, -22.862157035669266]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.7247555891975077, 1.2462142317436822, 5.795392266888729, -40.03312713446866]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.948679719392768, 1.5466421725925918, 5.474780182020577, -45.204230016755176]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0228316906068848, 4.151648602595594, 5.2156576023047, -51.33885079924758]
+Inner optimization function evaluation (q11, q22, r, obj):  [8.059580584101328, 1.6449109347606643, 5.866459934586186, -26.169603274790177]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.627824111388818, 5.110403269590114, 6.569316855800384, -23.066827649799986]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2294656329841778, 1.078195823197396, 5.85292930288248, -63.51130322548063]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.693980809536529, 1.0685417659990526, 7.129951455756806, -24.543115984509463]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.179805473748327, 5.423936555286019, 5.21504371379137, -31.93369894328828]
+Inner optimization function evaluation (q11, q22, r, obj):  [7.491195034883533, 4.345751462861506, 7.606148856110082, -17.31784794983415]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.1398078387105732, 4.612238726897671, 5.6628754204045055, -36.799403583943864]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3682868623593423, 1.2384878631702432, 6.469289129686445, -55.1551422806719]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.837149486345937, 4.901432164437888, 7.041592370676043, -23.49279438433832]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3523292185611773, 7.681965545523191, 6.140822896445746, -33.34331667903891]
+Inner optimization function evaluation (q11, q22, r, obj):  [6.184798547584249, 1.5045523578234414, 5.0058047284475276, -34.60777224290772]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.7253340906121695, 1.1707353254676978, 9.632272343090401, -22.231890222934034]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.9637203968732075, 3.578003785331642, 5.068548017748183, -44.53151445040437]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -6.351130322548063e+01 1.0e+00 3.00e+00  2e+00  3e+00 46:00.4
+Inner optimization function evaluation (q11, q22, r, obj):  [1.7251147181314597, 2.0065993841941085, 5.7197064895604806, -49.953720674986926]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.370240669788146, 1.3881272931208946, 9.130882258972868, -28.767672692634733]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.3075489781172487, 1.3734073544621759, 8.057413703508182, -37.28673196277572]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2484363665796068, 2.139601096443953, 8.893111151890881, -38.43086505773393]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.8669203683442317, 2.9483748054979797, 6.733416889093314, -38.286654881007806]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.6656439842099826, 3.662680539811494, 8.998097815627784, -24.466402146820492]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3080351391082645, 1.0227905913010937, 5.709498955444725, -64.10753904184546]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.2470992245806283, 1.4104414795414444, 5.834895944079443, -48.00790979958481]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.439336421470692, 1.3333070842207966, 5.414427194179146, -38.708161377852925]
+Inner optimization function evaluation (q11, q22, r, obj):  [4.046391968232889, 1.633898126378807, 8.656327381419635, -26.963296777442025]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.4396877644603259, 1.9914263391520857, 6.164492418638074, -50.10106541735422]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.3566735514244983, 2.178214010865178, 8.3858897369068, -38.94613086307075]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.8240618226882748, 2.8259722317339904, 6.315004786014298, -40.802877508191884]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.207092228697835, 3.6711788633317353, 5.1861963918000065, -51.4540017454035]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.7909696548857763, 1.325244727394614, 8.433077976681249, -29.67413952064122]
+Inner optimization function evaluation (q11, q22, r, obj):  [3.942499956621405, 3.710341637134734, 6.276544352187413, -28.248698775270658]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.8269552541725902, 5.078852384903064, 5.4274028236178, -40.06565727776617]
+Inner optimization function evaluation (q11, q22, r, obj):  [5.718934126944534, 1.5268438031013898, 9.221228050892275, -22.065396687264286]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.0056075531020616, 6.0554608906550955, 6.069059759144135, -39.98605657235404]
+Inner optimization function evaluation (q11, q22, r, obj):  [2.648873033178465, 3.3951951876085307, 6.079952031970595, -35.08795414256456]
+Inner optimization function evaluation (q11, q22, r, obj):  [1.2428041360310202, 2.8706789913126434, 6.50064519798952, -45.5966926491762]
+    2     42 -6.410753904184546e+01 1.5e+00 2.37e+00  1e+00  2e+00 92:26.5
+The process took 92 minutes
+Optimal solution:  [1.30803514 1.02279059 5.70949896]
+Optimal value of the objective function:  -64.10753904184546
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.1291629079613885, 0.18550477105184313, 1.3080351391082645, 1.0227905913010937, 5.709498955444725, -64.10753904184546]
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -1.000000000000000e-04 1.0e+00 2.58e+00  2e+00  3e+00 4:10.4
+No trajectory founded, probably due to a bad design...
+The process took 4 minutes
+Optimal solution:  [1.89747951 5.96826299 9.28060038]
+Optimal value of the objective function:  -0.0001
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.2807150925915613, 0.2059889560758899, 1.897479505428999, 5.968262985835467, 9.280600380357889, -0.0001]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+Inner optimization function evaluation (q11, q22, r, obj):  [1.8660259034256252, 7.4157738159590325, 7.637556718939349, -18.80210565454457]
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     21 -1.880210565454457e+01 1.0e+00 2.45e+00  2e+00  2e+00 63:38.5
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+TrajOpt ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+RoA estimation ERROR, The new volumeDIRTRAN is:  -0.0001
+    2     42 -1.000000000000000e-04 1.2e+00 2.88e+00  3e+00  3e+00 122:27.7
+The process took 122 minutes
+Optimal solution:  [1.8660259  7.41577382 7.63755672]
+Optimal value of the objective function:  -18.80210565454457
+Outern optimization function evaluation (Mp,lp,q11, q22, r, obj):  [0.21828506521198857, 0.17889322966563245, 1.8660259034256252, 7.4157738159590325, 7.637556718939349, -18.80210565454457]
+Iterat #Fevals   function value  axis ratio  sigma  min&max std  t[m:s]
+    1     18 -6.410753904184546e+01 1.0e+00 1.43e-01  4e-02  6e-02 884:43.0
+The process took 884 minutes
+Optimal solution (l, m, q11, q22, r):  [0.18550477105184313, 0.1291629079613885, 1.3080351391082645, 1.0227905913010937, 5.709498955444725]
+Optimal value of the objective function:  -64.10753904184546
+The optimal l is:  0.1291629079613885
+The optimal m is:  0.18550477105184313
+The optimal Q is:  [[1.30803514 0.         0.         0.        ]
+ [0.         1.02279059 0.         0.        ]
+ [0.         0.         0.1        0.        ]
+ [0.         0.         0.         0.1       ]]
+The optimal R is:  5.709498955444725
+Volume of CMA-ES funnel: 70.90274879865225
+Volume of init funnel: 6.922897943995206
+job Finisced!

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<robot name="UndampedCartPole">
+
+  <link name="cart">
+    <inertial>
+      <origin xyz="0 0 0" />
+      <mass value="1.0731" />
+    </inertial>
+  </link>
+
+  <link name="pendulum">
+    <inertial>
+      <origin xyz="0 0 0.1778" />
+      <mass value="0.127" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.0011987" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="x" type="prismatic">
+    <parent link="world" />
+    <child link="cart" />
+    <axis xyz="1 0 0" />
+    <dynamics damping="5.4"/>
+  </joint>
+
+  <joint name="theta" type="continuous">
+    <parent link="cart" />
+    <child link="pendulum" />
+    <axis xyz="0 -1 0" />
+    <dynamics damping="0.0024"/>
+  </joint>
+
+  <transmission type="SimpleTransmission" name="base_force">
+    <actuator name="force" />
+    <joint name="x" />
+  </transmission>
+
+</robot>
