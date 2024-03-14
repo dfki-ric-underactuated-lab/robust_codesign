@@ -36,16 +36,16 @@ The use of a virtual environment for the installation is suggested as a common g
 Torque-limited simple pendulum:
 </div>
 <div align="center">
-<img width="190" src="results/media/RTCDpendulum.png">
-<img width="190" src="results/media/realSPsystem.png">
-<img width="190" src="results/media/RTCDpendulumVer.png">
+<img width="210" src="results/media/RTCDpendulum.png">
+<img width="210" src="results/media/realSPsystem.png">
+<img width="210" src="results/media/RTCDpendulumVer.png">
 </div>
 </div>
 Cart-pole:
 <div align="center">
-<img width="190" src="results/media/RTCcartpole.png">
-<img width="190" src="results/media/realCPsystem.png">
-<img width="190" src="results/media/RTCcartpoleVer.png">
+<img width="210" src="results/media/RTCcartpole.png">
+<img width="210" src="results/media/realCPsystem.png">
+<img width="210" src="results/media/RTCcartpoleVer.png">
 </div>
 
 <!-- ### Citation
