@@ -148,8 +148,8 @@ def plotFunnel3d(csv_path, traj_path, ax = None, fontSize = 18, ticksSize = 16):
     nominal = None
     if(ax == None):
        fig = plt.figure(figsize = (20,20)) 
-       ax = fig.add_subplot(111, projection='3d')
-       nominal, = ax.plot(time,x0[0],x0[1],label = r"$(\mathbf{x}^{\star}, \mathbf{u}^{\star})$", color = "C1", linestyle = "--", linewidth = "0.3", zorder = 3) # plot of the nominal trajectory
+       ax = fig.add_subplot(111, projection='3d') #(\mathbf{x}^{\star}, \mathbf{u}^{\star})
+       nominal, = ax.plot(time,x0[0],x0[1],label = "Nominal trajectory", color = "black", linestyle = "dashed", linewidth = "1.5", zorder = 3, dashes=(5, 10)) # plot of the nominal trajectory
 
     for i in range(len(time)):
         (rho_i, S_i) = getEllipseFromCsv(csv_path, i)
@@ -164,7 +164,7 @@ def plotFunnel3d(csv_path, traj_path, ax = None, fontSize = 18, ticksSize = 16):
         elliIn=patches.Ellipse((x0[s0][i],x0[s1][i]), 
                                 w[0], 
                                 h[0],
-                                a[0],ec="black",linewidth=1.25, color = "green", alpha = 0.1)
+                                a[0],ec="black",linewidth=1.25, color = "green", alpha = 0.08)
         ax.add_patch(elliIn)
         art3d.pathpatch_2d_to_3d(elliIn, z=time[i], zdir="x") # 3d plot of a patch
 
@@ -183,7 +183,7 @@ def plotFunnel3d(csv_path, traj_path, ax = None, fontSize = 18, ticksSize = 16):
     ax.zaxis.labelpad=20
     return ax, nominal
 
-def plotFunnel(funnel_path, traj_path, ax = None, fontSize = 18, ticksSize = 16, noTraj = False):
+def plotFunnel(funnel_path, traj_path, ax = None, fontSize = 18, ticksSize = 16, noTraj = False, funnel_color = "red"):
     '''
     Function to draw a continue 2d funnel plot. This implementation makes use of the convex hull concept
     as done in the MATLAB code of the Robot Locomotion Group (https://groups.csail.mit.edu/locomotion/software.html).
@@ -205,14 +205,12 @@ def plotFunnel(funnel_path, traj_path, ax = None, fontSize = 18, ticksSize = 16,
 
     # figure initialization
     zorder = 2
-    funnel_color = 'red'
     traj_color = "black"#funnel_color# "orange"
     if (ax == None):
         fig = plt.figure(figsize=(15,12))
         #fig.set_size_inches(w=6, h=5)
         ax = fig.add_subplot()
         zorder = 1
-        funnel_color = 'green'
         traj_color = "black"#funnel_color#"blue"
         ax.grid(True)
         labels=[r"$\theta$"+" [rad]",r'$\dot \theta$'+" [rad/s]"]

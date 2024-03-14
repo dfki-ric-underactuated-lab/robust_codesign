@@ -86,8 +86,10 @@ rtcddist_tau_list  = trajOptRTCDdist.T[3].T
 
 # Plotting the real traj in the funnel
 ax_traj, nominal = plotFunnel3d(optimized_funnel_path, optimized_traj_path,fontSize=fontSize,ticksSize=ticksSize)
-dirtran, =ax_traj.plot(dirtrandist_time_list[0:], dirtrandist_pos_list[0:], dirtrandist_vel_list[0:], label = "DIRTRAN", color = "C3", linewidth = "0.7")
-opt2, = ax_traj.plot(rtcddist_time_list[0:], rtcddist_pos_list[0:], rtcddist_vel_list[0:], label = "RTC-D", color = "C2", linewidth = "0.7")
-ax_traj.legend(handles = [nominal,dirtran, opt2], fontsize = fontSize)
+dirtran, =ax_traj.plot(dirtrandist_time_list[0:], dirtrandist_pos_list[0:], dirtrandist_vel_list[0:], label = "Initial response", color = "C3", linewidth = "1.9", marker ='o', markersize=10,markevery=15)
+opt2, = ax_traj.plot(rtcddist_time_list[0:], rtcddist_pos_list[0:], rtcddist_vel_list[0:], label = "Optimal RTC-D response", color = "C2", linewidth = "1.9", marker ='v', markersize=10,markevery=15)
+goalPoint = ax_traj.scatter(rtcddist_time_list[0:][-1], np.pi, 0, marker ='*', s = 950, label = "Goal state", facecolors = "black", edgecolors = "white", linewidth=2)
+initPoint = ax_traj.scatter(rtcddist_time_list[0:][0], 0, 0, marker ='.', s = 950, label = "Start state", facecolors = "black", edgecolors = "white", linewidth=2)
+ax_traj.legend(handles = [nominal,dirtran, opt2, goalPoint, initPoint], fontsize = fontSize, loc = "upper right")
 
 plt.show()

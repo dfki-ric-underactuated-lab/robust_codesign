@@ -70,19 +70,14 @@ print("The convex hull volume of the "+ label1 +" funnel is", vol1)
 print("The convex hull volume of the "+ label2 +" funnel is", vol2)
 print("The convex hull volume of the "+ label3 +" funnel is", vol3)
 
-# Funnel plots RTCD
-ax0 = plotFunnel(funnel_path2, traj_path2, fontSize= fontSize, ticksSize= ticksSize, noTraj = True)
+# Funnel comparison RTCD and RTC
+ax0 = plotFunnel(funnel_path2, traj_path2, fontSize= fontSize, ticksSize= ticksSize, noTraj = True, funnel_color='green')
+plotFunnel(funnel_path3, traj_path3, ax=ax0, fontSize= fontSize, ticksSize= ticksSize, noTraj = True, funnel_color='orange')
 plotFunnel(funnel_path1, traj_path1, ax=ax0, fontSize= fontSize, ticksSize= ticksSize, noTraj = True)
 g_patch = mlp.patches.Patch(color='green', label='RTC-D')
-r_patch = mlp.patches.Patch(color='red', label='DIRTRAN')
-leg = ax0.legend(handles=[r_patch, g_patch], fontsize=fontSize,loc = "upper right")
-
-# Funnel plots RTC
-ax0 = plotFunnel(funnel_path3, traj_path3, fontSize= fontSize, ticksSize= ticksSize, noTraj = True)
-plotFunnel(funnel_path1, traj_path1, ax=ax0, fontSize= fontSize, ticksSize= ticksSize, noTraj = True)
-g_patch = mlp.patches.Patch(color='green', label='RTC')
-r_patch = mlp.patches.Patch(color='red', label='DIRTRAN')
-leg = ax0.legend(handles=[r_patch, g_patch], fontsize=fontSize,loc = "upper right")
+lg_patch = mlp.patches.Patch(color='orange', label='RTC')
+r_patch = mlp.patches.Patch(color='red', label='Initial')
+leg = ax0.legend(handles=[r_patch,lg_patch, g_patch], fontsize=fontSize,loc = "upper right")
 
 ##############################
 # Optimization evolution plots

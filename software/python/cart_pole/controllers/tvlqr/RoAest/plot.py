@@ -122,8 +122,8 @@ def plotFunnel3d(funnel_path, traj_path, indeces, fontSize = 40, ticksSize = 40)
     funnel_color = 'green'
     labels = [r"$x_{cart}$ [m]",r"$\theta$ [rad]",r"$\dot x_{cart}$ [m/s]",r"$\dot \theta$ [rad/s]"]
     fig = plt.figure(figsize = (12,12)) 
-    ax = fig.add_subplot() #111, projection='3d')
-    nominal, = ax.plot(x0[0],x0[1],label = r"$(\mathbf{x}^{\star}, \mathbf{u}^{\star})$", color = "C1", linestyle = "--", linewidth = "0.3", zorder = 3) # plot of the nominal trajectory     
+    ax = fig.add_subplot() #111, projection='3d') # (\mathbf{x}^{\star}, \mathbf{u}^{\star})
+    nominal, = ax.plot(x0[0],x0[1],label = "Nominal trajectory", color = "black", linestyle = "--", linewidth = "1.5", zorder = 3, dashes=(5, 10)) # plot of the nominal trajectory     
 
     for i in range(len(time)-1):
         (rho_i, S_i) = getEllipseFromCsv(funnel_path,i)
@@ -138,7 +138,7 @@ def plotFunnel3d(funnel_path, traj_path, indeces, fontSize = 40, ticksSize = 40)
         e = patches.Ellipse((x0[0][i],x0[1][i]), 
                                 w[0], 
                                 h[0],
-                                a[0],ec="black",linewidth=1.25, color = funnel_color, alpha = 0.1)
+                                a[0],ec="black",linewidth=1.25, color = funnel_color, alpha = 0.08)
         ax.add_patch(e)
         #art3d.pathpatch_2d_to_3d(e, z=time[i], zdir="x") # 3d plot of a patch
 

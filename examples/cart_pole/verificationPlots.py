@@ -22,8 +22,8 @@ label2 = "RTC"
 nVerifications = 100
 
 # Plot parameters
-ticksSize = 20
-fontSize = 20
+ticksSize = 40
+fontSize = 40
 labels = [r"$x_{cart}$ [m]",r"$\theta$ [rad]",r"$\dot x_{cart}$ [m/s]",r"$\dot \theta$ [rad/s]", r"F [N]"]
 indexes = (1,3) # Meaningful values (0,1) (0,2) (0,3) (1,2) (1,3) (2,3)
 
@@ -136,8 +136,10 @@ rtc_force_list  = trajOptRTC.T[5].T
 
 # Plotting the real traj in the funnel
 ax,nominal = plotFunnel3d(funnel_path2, traj_path2, indexes)
-ax.plot(rtc_x0_list, rtc_x1_list, label = "RTC", color = "C2", linewidth = "0.7")
-ax.plot(dirtrandist_x0_list, dirtrandist_x1_list, label = "DIRTRAN", color = "C3", linewidth = "0.7")
-ax.legend(fontsize=fontSize,loc = "upper right")
+ax.plot(rtc_x0_list, rtc_x1_list, label = "Optimal RTC response", color = "C2", linewidth = "1.9", marker="v", markevery=15, markersize=10)
+ax.plot(dirtrandist_x0_list, dirtrandist_x1_list, label = "Initial response", color = "C3", linewidth = "1.9", marker="o", markevery=15, markersize=10)
+goalPoint = ax.scatter( 0, 0, marker ='*', s = 1000, label = "Goal state", zorder = 3, facecolors = "black", edgecolors = "white", linewidth=3)
+initPoint = ax.scatter(np.pi, 0, marker ='.', s = 1000, label = "Start state", zorder = 3, facecolors = "black", edgecolors = "white", linewidth=3)
+ax.legend(fontsize=fontSize,loc = "upper left")
 
 plt.show()

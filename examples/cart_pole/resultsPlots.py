@@ -14,8 +14,8 @@ funnel_path2 = "results/cart_pole/optCMAES_31082023-11:59:46_volumeDIRTRAN/RoA_C
 label2 = "RTC"
 
 # Plots parameters
-ticksSize = 20
-fontSize = 20
+ticksSize = 40
+fontSize = 40
 labels = [r"$x_{cart}$ [m]",r"$\theta$ [rad]",r"$\dot x_{cart}$ [m/s]",r"$\dot \theta$ [rad/s]", r"F [N]"]
 indexes = (1,3) # Meaningful values (0,1) (0,2) (0,3) (1,2) (1,3) (2,3)
 
@@ -67,7 +67,7 @@ print("The convex hull volume of the "+ label2 +" funnel is", vol2)
 ax = plotFunnel(funnel_path2, traj_path2, indexes, fontSize = fontSize, ticksSize = ticksSize)
 plotFunnel(funnel_path1, traj_path1, indexes, ax, fontSize = fontSize, ticksSize = ticksSize)
 g_patch = mlp.patches.Patch(color='green', label='RTC')
-r_patch = mlp.patches.Patch(color='red', label='DIRTRAN')
+r_patch = mlp.patches.Patch(color='red', label='Initial')
 ax.legend(handles=[r_patch, g_patch], fontsize=fontSize,loc = "upper right")
 
 ########################
