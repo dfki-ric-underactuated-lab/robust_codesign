@@ -98,21 +98,35 @@ for Increased Certifiable Stability</h1>
   <a href=""><i class="fa fa-youtube-play" style="font-size:36px; padding:1em;"></i></a>
 </div>
 <h2 id="introduction">Introduction</h2>
-<p>Optimal behaviours of a system to perform a specific task can be
-achieved by leveraging the coupling between trajectory optimization,
-stabilization, and design optimization. This approach is particularly
-advantageous for underactuated systems, which are systems that have
-fewer actuators than degrees of freedom and thus require for more
-elaborate control systems. This paper proposes a novel co-design
-algorithm, namely Robust Trajectory Control with Design optimization
-(RTC-D). An inner optimization layer (RTC) simultaneously performs
-direct transcription (DIRTRAN) to find a nominal trajectory while
-computing optimal hyperparameters for a stabilizing time-varying linear
-quadratic regulator (TVLQR). RTC-D augments RTC with a design
-optimization layer, maximizing the system’s robustness through a
-time-varying Lyapunov-based region of attraction (ROA) analysis. This
-analysis provides a formal guarantee of stability for a set of
-off-nominal states.</p>
+<p>Different living organisms have evolved diverse locomotion strategies
+and physical characteristics to adapt to their unique environments.
+Similarly, for underactuated systems a combined optimization of
+structural parameters and motion control is important to effectively
+accomplish the desired tasks. A design optimization tunes the system’s
+hardware parameters, such as link lengths or the center of mass
+position, of a system to allow for executing the described task with the
+desired behaviour. For trajectory tracking control, reaching the goal
+requires to search for a motion trajectory and to compute the control
+policy that permits the closed-loop trajectory following. Typically, the
+best trajectory is obtained via a trajectory optimization step, while
+the control input is computed by a specifically defined controller. A
+traditional approach to find the best trade-off between mechanical
+design and motion planning is to iterate between the two processes.
+Instead, concurrent design aims to automate this process by numerically
+optimizing both the motion and design parameters, a strategy that has
+demonstrated superior results. Recent studies in the literature are
+incorporating non-idealities, such as measurement noise and parameter
+variations, into co-optimization processes to reduce discrepancies
+between theoretical predictions and real-world performance.\ This paper
+proposes a novel two layered gradient-free co-design algorithm, namely
+RTC-D. The process involves co-optimization among the cost matrices of a
+TVLQR controller, the desired trajectory provided by DIRTRAN, and the
+system’s design parameters. It aims to improve the real-world
+applicability of the combined optimization result by leveraging the
+volume of an estimated time-varying ROA. To the best knowledge of the
+authors this metric has not been studied in this context. We employ the
+CMA-ES optimization strategy to determine the optimal decision
+variables.</p>
 <figure>
 <img src="../results/media/robustCodesign.png" width="100%" alt="">
 <figcaption>
@@ -121,8 +135,14 @@ motion.
 </figcaption>
 </figure>
 <h2 id="results-and-discussion">Results and Discussion</h2>
-<p>The proposed algorithm has been tested on two different underactuated
-systems: the torque-limited simple pendulum and the cart-pole.</p>
+<p>Our approach has been rigorously tested on two different canonical
+underactuated systems: the torque-limited simple pendulum and a
+cart-pole. These systems are inherently underactuated, demanding a
+robust control approach. The specific case study involves the swing-up
+problem, consisting in stabilizing the pole in it’s up-right position.
+We validate our results through extensive simulations of the system’s
+closed loop dynamics, assessing the stabilizability of off-nominal
+initial conditions.</p>
 <figure>
 <img src="../results/media/RTCcartpole.png" width="40%" alt="">
 <img src="../results/media/RTCDpendulum.png" width="40%" alt="">
@@ -132,61 +152,31 @@ comparison between RTC and RTC-D optimization for Simple pendulum
 (right).
 </figcaption>
 </figure>
-<p>Extensive simulations of off-nominal initial conditions demonstrate
-improved robustness, while real-system experiments show increased
-insensitivity to torque disturbances. The experiment…</p>
-The robot was tested in two different conditions:
+Also, experimental verification on the real systems has been
+implemented. An impulsive torque disturbance has been introduced to
+check the controller’s robustness. The robots were tested in two
+different conditions:
 <ul>
 <li>
-Initial situation,
+Initial situation, before the optimization
 </li>
 <li>
-Optimized scenario.
+Optimal scenario, using the algorithm results
 </li>
 </ul>
+<p>Real-system experiments show increased insensitivity to torque
+disturbances. The optimal configuration (RTC and RTC-D) manages to
+achieve the desired final stabilization where the initial one does
+not.</p>
 <figure>
 <img src="../results/media/RTCcartpoleVer.png" width="40%" alt="">
 <img src="../results/media/RTCDpendulumVer.png" width="40%" alt="">
 <figcaption>
 Fig.3 - Experimental verification of stability guarantee (green funnel)
 given by the RTC for Cart-pole (left) and RTC-D for Simple pendulum
-(right). The optimal configuration (RTC and RTC-D) manages to achieve
-the desired final stabilization where the initial one does not.
+(right).
 </figcaption>
 </figure>
-<p>Increased robustness…</p>
-<!-- <table>
-  <tbody>
-    <tr align="center" valign="center">
-      <td>
-        <figure>
-          <img src="static/figures/plot_footsteps_best_3_video.png" width="95%" alt="">
-          <figcaption>Fig.3 - Measured footsteps for fast walking</figcaption>
-        <figure>
-      </td>
-      <td>
-        </figure>
-          <img src="static/figures/plot_walk_in_place_force_z_left.png" width="95%" alt="">
-          <figcaption>Fig.4 - Measured vertical GRF while stepping in place</figcaption>
-        </figure>
-      </td>
-    </tr>
-    <tr align="center" valign="center">
-      <td>
-        <figure>
-          <img src="static/figures/plot_feet_cop_walk_fast.png" width="95%" alt="">
-          <figcaption>Fig.5 - Measured CoP on fastest walk</figcaption>
-        </figure>
-      </td>
-      <td>
-        <figure>
-          <img src="static/figures/plot_footsteps_long_strides.png" width="95%" alt="">
-          <figcaption>Fig.6 - Measured footsteps for long stride walk</figcaption>
-        </figure>
-      </td>
-    </tr>
-  </tbody>
-</table> -->
 <div>
   <p align="center">
     <img src="../results/media/logo.svg" style="width:281px"> 
