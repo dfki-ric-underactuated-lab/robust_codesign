@@ -31,6 +31,7 @@ The use of a virtual environment for the installation is suggested as a common g
     pipenv shell
     pipenv install software/python
     pipenv install 'drake==1.5.0'    
+A LaTeX distribution installation might be necessary for the correct visualization of the results. In case of error due to the version of a library please refer to versions available from March 2022.
 
 ### Results
 Torque-limited simple pendulum:

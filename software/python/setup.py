@@ -9,7 +9,7 @@ setup(
     install_requires=[
         # general
         'numpy',
-        'matplotlib',
+        'matplotlib==3.6.0',
         'scipy',
         'ipykernel',
         'pyyaml',
