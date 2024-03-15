@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta http-equiv='cache-control' content='no-cache'> 
+  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='pragma' content='no-cache'>
+  <title>Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="/home/fedeg/Documents/robust_codesign/docs/style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Robust Co-Design of Canonical Underactuated Systems
+for Increased Certifiable Stability</h1>
+
+
+<p class="author">
+    <a href="linkedin.com/in/federico-girlanda-6a3336218mitarbeiter/ivbe01.html">
+  
+  Federico Girlanda 
+        <sup>12</sup>
+        </a>
+      <a href="linkedin.com/in/lasse-jenning-shala-b8502b187">
+  
+  Lasse Maywald 
+        <sup>1</sup>
+        </a>
+      <a href="https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/shku02.html">
+  
+  Shivesh Kumar 
+        <sup>13</sup>
+        </a>
+      <a href="https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/frki01.html">
+  
+  Frank Kirchner 
+        <sup>14</sup>
+        </a>
+  </p>
+
+<p class="affiliation">
+
+    <a href="https://robotik.dfki-bremen.de/de/startseite">
+  
+  German Research Center for Artificial Intelligence 
+      <sup>1</sup>
+  
+    </a>
+  
+    <a href="https://www.dei.unipd.it/en/home-page">
+  
+  University of Padua (Italy) 
+      <sup>2</sup>
+  
+    </a>
+  
+    <a href="https://www.chalmers.se/en/departments/m2/">
+  
+  Chalmers University of Technology (Sweden) 
+      <sup>3</sup>
+  
+    </a>
+  
+    <a href="https://www.uni-bremen.de/robotik">
+  
+  Universität Bremen 
+      <sup>4</sup>
+  
+    </a>
+  </p>
+
+</header>
+
+<div class="header_links">
+  <!-- <a href=""><i class="fa fa-github" style="font-size:36px; padding:1em;"></i></a> -->
+  <a href=""><i class="fa fa-file-pdf-o" style="font-size:36px; padding:1em;"></i></a>
+  <a href=""><i class="fa fa-youtube-play" style="font-size:36px; padding:1em;"></i></a>
+</div>
+<h2 id="introduction">Introduction</h2>
+<p>Optimal behaviours of a system to perform a specific task can be
+achieved by leveraging the coupling between trajectory optimization,
+stabilization, and design optimization. This approach is particularly
+advantageous for underactuated systems, which are systems that have
+fewer actuators than degrees of freedom and thus require for more
+elaborate control systems. This paper proposes a novel co-design
+algorithm, namely Robust Trajectory Control with Design optimization
+(RTC-D). An inner optimization layer (RTC) simultaneously performs
+direct transcription (DIRTRAN) to find a nominal trajectory while
+computing optimal hyperparameters for a stabilizing time-varying linear
+quadratic regulator (TVLQR). RTC-D augments RTC with a design
+optimization layer, maximizing the system’s robustness through a
+time-varying Lyapunov-based region of attraction (ROA) analysis. This
+analysis provides a formal guarantee of stability for a set of
+off-nominal states.</p>
+<figure>
+<img src="../results/media/robustCodesign.png" width="100%" alt="">
+<figcaption>
+Fig.1 - Robust co-optimization for the optimal fitness of the desired
+motion.
+</figcaption>
+</figure>
+<h2 id="results-and-discussion">Results and Discussion</h2>
+<p>The proposed algorithm has been tested on two different underactuated
+systems: the torque-limited simple pendulum and the cart-pole.</p>
+<figure>
+<img src="../results/media/RTCcartpole.png" width="40%" alt="">
+<img src="../results/media/RTCDpendulum.png" width="40%" alt="">
+<figcaption>
+Fig.2 - Funnel volume increasing due to RTC for Cart-pole (left) and
+comparison between RTC and RTC-D optimization for Simple pendulum
+(right).
+</figcaption>
+</figure>
+<p>Extensive simulations of off-nominal initial conditions demonstrate
+improved robustness, while real-system experiments show increased
+insensitivity to torque disturbances. The experiment…</p>
+The robot was tested in two different conditions:
+<ul>
+<li>
+Initial situation,
+</li>
+<li>
+Optimized scenario.
+</li>
+</ul>
+<figure>
+<img src="../results/media/RTCcartpoleVer.png" width="40%" alt="">
+<img src="../results/media/RTCDpendulumVer.png" width="40%" alt="">
+<figcaption>
+Fig.3 - Experimental verification of stability guarantee (green funnel)
+given by the RTC for Cart-pole (left) and RTC-D for Simple pendulum
+(right). The optimal configuration (RTC and RTC-D) manages to achieve
+the desired final stabilization where the initial one does not.
+</figcaption>
+</figure>
+<p>Increased robustness…</p>
+<!-- <table>
+  <tbody>
+    <tr align="center" valign="center">
+      <td>
+        <figure>
+          <img src="static/figures/plot_footsteps_best_3_video.png" width="95%" alt="">
+          <figcaption>Fig.3 - Measured footsteps for fast walking</figcaption>
+        <figure>
+      </td>
+      <td>
+        </figure>
+          <img src="static/figures/plot_walk_in_place_force_z_left.png" width="95%" alt="">
+          <figcaption>Fig.4 - Measured vertical GRF while stepping in place</figcaption>
+        </figure>
+      </td>
+    </tr>
+    <tr align="center" valign="center">
+      <td>
+        <figure>
+          <img src="static/figures/plot_feet_cop_walk_fast.png" width="95%" alt="">
+          <figcaption>Fig.5 - Measured CoP on fastest walk</figcaption>
+        </figure>
+      </td>
+      <td>
+        <figure>
+          <img src="static/figures/plot_footsteps_long_strides.png" width="95%" alt="">
+          <figcaption>Fig.6 - Measured footsteps for long stride walk</figcaption>
+        </figure>
+      </td>
+    </tr>
+  </tbody>
+</table> -->
+<div>
+  <p align="center">
+    <img src="../results/media/logo.svg" style="width:281px"> 
+    <img src="../results/media/ulab.gif" style="width:225px">
+    <img src="../results/media/MRock-Logo.png" style="width:198px">
+  </p>
+</div>
+</body>
+</html>

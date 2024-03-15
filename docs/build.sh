@@ -1,1 +1,1 @@
-pandoc --standalone index.md -o index.html --mathjax --css style.css --template template.html
+pandoc --standalone /home/fedeg/Documents/robust_codesign/docs/robustCoDesign.md -o /home/fedeg/Documents/robust_codesign/docs/robustCoDesign.html --mathjax --css /home/fedeg/Documents/robust_codesign/docs/style.css --template /home/fedeg/Documents/robust_codesign/docs/template.html
