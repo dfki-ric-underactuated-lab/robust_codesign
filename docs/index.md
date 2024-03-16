@@ -5,8 +5,8 @@ title: "Robust Co-Design of Canonical Underactuated Systems for Increased Certif
 # youtube: https://www.youtube.com/watch?v=39GL2vPedGY&ab_channel=GermanResearchCenterforArtificialIntelligence
 
 authors:
-  - {name: Federico Girlanda, affiliation_key: [1,2], link: linkedin.com/in/federico-girlanda-6a3336218mitarbeiter/ivbe01.html}
-  - {name: Lasse Maywald, affiliation_key: 1, link: linkedin.com/in/lasse-jenning-shala-b8502b187}
+  - {name: Federico Girlanda, affiliation_key: [1,2], link: https://www.linkedin.com/in/federico-girlanda-6a3336218m}
+  - {name: Lasse Maywald, affiliation_key: 1, link: https://www.linkedin.com/in/lasse-jenning-shala-b8502b187}
   - {name: Shivesh Kumar, affiliation_key: [1,3], link: https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/shku02.html}
   - {name: Frank Kirchner, affiliation_key: [1,4], link: https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/frki01.html}
 affiliations:
@@ -21,7 +21,7 @@ Different living organisms have evolved diverse locomotion strategies and physic
 This paper proposes a novel two layered gradient-free co-design algorithm, namely RTC-D. The process involves co-optimization among the cost matrices of a TVLQR controller, the desired trajectory provided by DIRTRAN, and the system's design parameters. It aims to improve the real-world applicability of the combined optimization result by leveraging the volume of an estimated time-varying ROA. To the best knowledge of the authors this metric has not been studied in this context. We employ the CMA-ES optimization strategy to determine the optimal decision variables.
 
 <figure>
-  <img src="../results/media/robustCodesign.png" width="100%" alt="">
+  <img src="static/robustCodesign.png" width="100%" alt="">
   <figcaption>Fig.1 - Robust co-optimization for the optimal fitness of the desired motion.</figcaption>
 </figure> 
 
@@ -29,8 +29,8 @@ This paper proposes a novel two layered gradient-free co-design algorithm, namel
 Our approach has been rigorously tested on two different canonical underactuated systems: the torque-limited simple pendulum and a cart-pole. These systems are inherently underactuated, demanding a robust control approach. The specific case study involves the swing-up problem, consisting in stabilizing the pole in it's up-right position. We validate our results through extensive simulations of the system’s closed loop dynamics, assessing the stabilizability of off-nominal initial conditions.
 
 <figure>
-  <img src="../results/media/RTCcartpole.png" width="40%" alt="">
-  <img src="../results/media/RTCDpendulum.png" width="40%" alt="">
+  <img src="static/RTCcartpole.png" width="40%" alt="">
+  <img src="static/RTCDpendulum.png" width="40%" alt="">
   <figcaption>Fig.2 - Funnel volume increasing due to RTC for Cart-pole (left) and comparison between RTC and RTC-D optimization  for Simple pendulum (right).</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ The robots were tested in two different conditions:
 Real-system experiments show increased insensitivity to torque disturbances. The optimal configuration (RTC and RTC-D) manages to achieve the desired final stabilization where the initial one does not.
 
 <figure>
-  <img src="../results/media/RTCcartpoleVer.png" width="40%" alt="">
-  <img src="../results/media/RTCDpendulumVer.png" width="40%" alt="">
+  <img src="static/RTCcartpoleVer.png" width="40%" alt="">
+  <img src="static/RTCDpendulumVer.png" width="40%" alt="">
   <figcaption>Fig.3 - Experimental verification of stability guarantee (green funnel) given by the RTC for Cart-pole (left) and RTC-D for Simple pendulum (right).</figcaption>
 </figure>
