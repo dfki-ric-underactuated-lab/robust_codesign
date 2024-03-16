@@ -30,8 +30,8 @@ This paper proposes a novel two layered gradient-free co-design algorithm, namel
 Our approach has been rigorously tested on two different canonical underactuated systems: the torque-limited simple pendulum and a cart-pole. These systems are inherently underactuated, demanding a robust control approach. The specific case study involves the swing-up problem, consisting in stabilizing the pole in it's up-right position. We validate our results through extensive simulations of the system’s closed loop dynamics, assessing the stabilizability of off-nominal initial conditions.
 
 <figure>
-  <img src="static/RTCcartpole.png" width="40%" alt="">
-  <img src="static/RTCDpendulum.png" width="40%" alt="">
+  <img src="static/RTCcartpole.png" width="45%" alt="">
+  <img src="static/RTCDpendulum.png" width="35%" alt="">
   <figcaption>Fig.2 - Funnel volume increasing due to RTC for Cart-pole (left) and comparison between RTC and RTC-D optimization  for Simple pendulum (right).</figcaption>
 </figure>
 
