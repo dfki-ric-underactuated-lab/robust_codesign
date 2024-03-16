@@ -22,7 +22,7 @@ Different living organisms have evolved diverse locomotion strategies and physic
 This paper proposes a novel two layered gradient-free co-design algorithm, namely RTC-D. The process involves co-optimization among the cost matrices of a TVLQR controller, the desired trajectory provided by DIRTRAN, and the system's design parameters. It aims to improve the real-world applicability of the combined optimization result by leveraging the volume of an estimated time-varying ROA. To the best knowledge of the authors this metric has not been studied in this context. We employ the CMA-ES optimization strategy to determine the optimal decision variables.
 
 <figure>
-  <img src="static/robustCodesign.png" width="100%" alt="">
+  <img src="static/robustCodesign.png" width="80%" alt="" style="margin-top: 5px;">
   <figcaption>Fig.1 - Robust co-optimization for the optimal fitness of the desired motion.</figcaption>
 </figure> 
 
