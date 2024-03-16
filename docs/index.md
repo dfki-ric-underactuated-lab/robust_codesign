@@ -2,7 +2,7 @@
 title: "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability"
 
 pdf: TBD
-youtube: docs/video/ExpVideo.mp4
+youtube: https://github.com/dfki-ric-underactuated-lab/robust_codesign/tree/main/docs/video
 github: https://github.com/dfki-ric-underactuated-lab/robust_codesign
 
 authors:
