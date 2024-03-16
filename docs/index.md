@@ -1,8 +1,9 @@
 ---
 title: "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability"
 
-# pdf: https://www.researchgate.net/publication/376186142_Fast_Dynamic_Walking_with_RH5_Humanoid_Robot
-# youtube: https://www.youtube.com/watch?v=39GL2vPedGY&ab_channel=GermanResearchCenterforArtificialIntelligence
+pdf: TBD
+youtube: TBD
+github: https://github.com/dfki-ric-underactuated-lab/robust_codesign
 
 authors:
   - {name: Federico Girlanda, affiliation_key: [1,2], link: https://www.linkedin.com/in/federico-girlanda-6a3336218m}
