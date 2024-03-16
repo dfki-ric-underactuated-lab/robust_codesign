@@ -1,6 +1,6 @@
 # Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability
 
-This repository contains the code, data and plots of the paper "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability". The paper has been submitted at the [ICRA 2024 Conference](https://2024.ieee-icra.org/). 
+This repository contains the code, data and plots of the paper [Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability](https://dfki-ric-underactuated-lab.github.io/robust_codesign/). The paper has been submitted at the [ICRA 2024 Conference](https://2024.ieee-icra.org/).
 
 ### Abstract
 Optimal behaviours of a system to perform a specific task can be achieved by leveraging the coupling between trajectory optimization, stabilization and design optimization. This approach proves particularly advantageous for underactuated systems, which are systems that have fewer actuators than degrees of freedom and thus require for more elaborate control systems. This paper proposes a novel co-design algorithm, namely Robust Trajectory Control with Design optimization
