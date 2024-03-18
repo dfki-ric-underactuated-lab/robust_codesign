@@ -50,11 +50,9 @@ The robots were tested in two different conditions:
 
 Real-system experiments show increased insensitivity to torque disturbances. The optimal configuration (RTC and RTC-D) manages to achieve the desired final stabilization where the initial one does not.
 
-<video src="video/ExperimentCP.mp4" controls="controls" autoplay="autoplay" style="max-width: 48em;">
+<video src="video/ExperimentCP.mp4" controls="controls" autoplay="autoplay" style="max-width: 48em;" loop="loop">
 Your browser does not support the video tag.</video>
-<video src="video/ExperimentSP.mp4" controls="controls" 
-autoplay="autoplay"
-style="max-width: 48em;">
+<video src="video/ExperimentSP.mp4" controls="controls" autoplay="autoplay" style="max-width: 48em;" loop="loop">
 Your browser does not support the video tag.</video>
 
 ##### IEEE Copyright
