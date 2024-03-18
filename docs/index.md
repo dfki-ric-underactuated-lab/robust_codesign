@@ -2,7 +2,7 @@
 title: "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability"
 
 pdf: TBD
-youtube: https://github.com/dfki-ric-underactuated-lab/robust_codesign/tree/main/docs/video
+#youtube: https://github.com/dfki-ric-underactuated-lab/robust_codesign/tree/main/docs/video
 github: https://github.com/dfki-ric-underactuated-lab/robust_codesign
 
 authors:
@@ -41,10 +41,24 @@ The robots were tested in two different conditions:
   <li>Initial situation, before the optimization</li>
   <li>Optimal scenario, using the algorithm results</li>
 </ul>
-Real-system experiments show increased insensitivity to torque disturbances. The optimal configuration (RTC and RTC-D) manages to achieve the desired final stabilization where the initial one does not.
 
 <figure>
   <img src="static/RTCcartpoleVer.png" width="40%" alt="">
   <img src="static/RTCDpendulumVer.png" width="40%" alt="">
   <figcaption>Fig.3 - Experimental verification of stability guarantee (green funnel) given by the RTC for Cart-pole (left) and RTC-D for Simple pendulum (right).</figcaption>
 </figure>
+
+Real-system experiments show increased insensitivity to torque disturbances. The optimal configuration (RTC and RTC-D) manages to achieve the desired final stabilization where the initial one does not.
+
+<video src="video/ExperimentCP.mp4" controls="controls" autoplay="autoplay" style="max-width: 48em;">
+Your browser does not support the video tag.</video>
+<video src="video/ExperimentSP.mp4" controls="controls" 
+autoplay="autoplay"
+style="max-width: 48em;">
+Your browser does not support the video tag.</video>
+
+##### IEEE Copyright
+
+Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024:
+
+  F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation, Yokohama, Japan, 2024 <!-- , doi: TBD . -->

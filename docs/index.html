@@ -94,8 +94,8 @@ for Increased Certifiable Stability</h1>
 
 <div class="header_links">
   <a href="https://github.com/dfki-ric-underactuated-lab/robust_codesign"><i class="fa fa-github" style="font-size:36px; padding:1em;"></i></a>
-  <a href="TBD"><i class="fa fa-file-pdf-o" style="font-size:36px; padding:1em;"></i></a>
-  <a href="https://github.com/dfki-ric-underactuated-lab/robust_codesign/tree/main/docs/video"><i class="fa fa-youtube-play" style="font-size:36px; padding:1em;"></i></a>
+  <!-- <a href="TBD"><i class="fa fa-file-pdf-o" style="font-size:36px; padding:1em;"></i></a> -->
+  <!-- <a href=""><i class="fa fa-youtube-play" style="font-size:36px; padding:1em;"></i></a> -->
 </div>
 <h2 id="introduction">Introduction</h2>
 <p>Different living organisms have evolved diverse locomotion strategies
@@ -164,10 +164,6 @@ Initial situation, before the optimization
 Optimal scenario, using the algorithm results
 </li>
 </ul>
-<p>Real-system experiments show increased insensitivity to torque
-disturbances. The optimal configuration (RTC and RTC-D) manages to
-achieve the desired final stabilization where the initial one does
-not.</p>
 <figure>
 <img src="static/RTCcartpoleVer.png" width="40%" alt="">
 <img src="static/RTCDpendulumVer.png" width="40%" alt="">
@@ -177,6 +173,23 @@ given by the RTC for Cart-pole (left) and RTC-D for Simple pendulum
 (right).
 </figcaption>
 </figure>
+<p>Real-system experiments show increased insensitivity to torque
+disturbances. The optimal configuration (RTC and RTC-D) manages to
+achieve the desired final stabilization where the initial one does
+not.</p>
+<video src="video/ExperimentCP.mp4" controls="controls" autoplay="autoplay" style="max-width: 48em;">
+Your browser does not support the video tag.
+</video>
+<video src="video/ExperimentSP.mp4" controls="controls" autoplay="autoplay" style="max-width: 48em;">
+Your browser does not support the video tag.
+</video>
+<h5 id="ieee-copyright">IEEE Copyright</h5>
+<p>Copyright on the material in this webpage has been transferred to
+IEEE for ICRA 2024:</p>
+<p>F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, “Robust Co-Design
+of Canonical Underactuated Systems for Increased Certifiable Stability,”
+2024 IEEE International Conference on Robotics and Automation, Yokohama,
+Japan, 2024 <!-- , doi: TBD . --></p>
 <div>
   <p align="center">
     <img src="static/logo.svg" style="width:281px;margin-top: 5px;"> 
