@@ -49,17 +49,20 @@ Cart-pole:
 <img width="210" src="results/media/RTCcartpoleVer.png">
 </div>
 
-<!-- ### Citation
-Maywald, Lasse & Wiebe, Felix & Kumar, Shivesh & Javadi, Mahdi & Kirchner, Frank. (2022). Co-optimization of Acrobot Design and Controller for Increased Certifiable Stability. 10.13140/RG.2.2.36436.07043.
+### Citation (Preprint)
 
-    @misc{maywald2022,
-    author = {Maywald, Lasse and Wiebe, Felix and Kumar, Shivesh and Javadi, Mahdi and Kirchner, Frank},
-    year = {2022},
-    month = {07},
-    pages = {},
-    title = {Co-optimization of Acrobot Design and Controller for Increased Certifiable Stability},
-    doi = {10.13140/RG.2.2.36436.07043}
-    } -->
+Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024: F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation, Yokohama, Japan, 2024 <!-- , doi: TBD . -->
+
+A pre-print is now available in arxiv, you can cite it with the following BibTeX citation: 
+
+@misc{girlanda2024robust,   
+  title={Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability},   
+  author={Federico Girlanda and Lasse Shala and Shivesh Kumar and Frank Kirchner},  
+  year={2024},  
+  eprint={2403.10966},  
+  archivePrefix={arXiv},  
+  primaryClass={cs.RO}  
+  }
 
 ### Aknowledgements
 Code contained in [software/python](software/python/) has been inspired by pre-existing software of DFKI GmbH. It's usage has been agreed with the owner. 

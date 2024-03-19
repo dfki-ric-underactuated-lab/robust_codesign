@@ -1,7 +1,7 @@
 ---
 title: "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability"
 
-pdf: TBD
+pdf: http://arxiv.org/abs/2403.10966
 #youtube: https://github.com/dfki-ric-underactuated-lab/robust_codesign/tree/main/docs/video
 github: https://github.com/dfki-ric-underactuated-lab/robust_codesign
 
@@ -55,8 +55,17 @@ Your browser does not support the video tag.</video>
 <video src="video/ExperimentSP.mp4" controls="controls" autoplay="autoplay" style="max-width: 48em;" loop="loop">
 Your browser does not support the video tag.</video>
 
-##### IEEE Copyright
+##### Copyright
 
-Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024:
+Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024: F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation, Yokohama, Japan, 2024 <!-- , doi: TBD . -->
 
-  F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation, Yokohama, Japan, 2024 <!-- , doi: TBD . -->
+A pre-print is now available in arxiv, you can cite it with the following BibTeX citation:
+
+@misc{girlanda2024robust,   
+  title={Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability},   
+  author={Federico Girlanda and Lasse Shala and Shivesh Kumar and Frank Kirchner},  
+  year={2024},  
+  eprint={2403.10966},  
+  archivePrefix={arXiv},  
+  primaryClass={cs.RO}  
+  }
