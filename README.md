@@ -49,23 +49,21 @@ Cart-pole:
 <img width="210" src="results/media/RTCcartpoleVer.png">
 </div>
 
-### Citation (Preprint)
+### Aknowledgements and Citation (Preprint)
 
-Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024: F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation, Yokohama, Japan, 2024 <!-- , doi: TBD . -->
+Code contained in [software/python](software/python/) has been inspired by pre-existing software of DFKI GmbH. It's usage has been agreed with the owner.
 
-A pre-print is now available in arxiv, you can cite it with the following BibTeX citation: 
+Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024: F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation, Yokohama, Japan, 2024 <!-- , doi: TBD . -->   
+A pre-print is now available in arXiv, you can cite it with the following BibTeX citation: 
 
-@misc{girlanda2024robust,   
-  title={Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability},   
-  author={Federico Girlanda and Lasse Shala and Shivesh Kumar and Frank Kirchner},  
-  year={2024},  
-  eprint={2403.10966},  
-  archivePrefix={arXiv},  
-  primaryClass={cs.RO}  
-  }
-
-### Aknowledgements
-Code contained in [software/python](software/python/) has been inspired by pre-existing software of DFKI GmbH. It's usage has been agreed with the owner. 
+    @misc{girlanda2024robust,   
+      title={Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability},   
+      author={Federico Girlanda and Lasse Shala and Shivesh Kumar and Frank Kirchner},  
+      year={2024},  
+      eprint={2403.10966},  
+      archivePrefix={arXiv},  
+      primaryClass={cs.RO}  
+      } 
 
 
 </div>
