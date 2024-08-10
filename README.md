@@ -53,17 +53,19 @@ Cart-pole:
 
 Code contained in [software/python](software/python/) has been inspired by pre-existing software of DFKI GmbH. It's usage has been agreed with the owner.
 
-Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024: F. Girlanda, L. Maywald, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation, Yokohama, Japan, 2024 <!-- , doi: TBD . -->   
-A pre-print is now available in arXiv, you can cite it with the following BibTeX citation: 
+Copyright on the material in this webpage has been transferred to IEEE for ICRA 2024: 
+F. Girlanda, L. Shala, S. Kumar and F. Kirchner, "Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024, pp. 13271-13277, doi: 10.1109/ICRA57147.2024.10611645.
 
-    @misc{girlanda2024robust,   
-      title={Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability},   
-      author={Federico Girlanda and Lasse Shala and Shivesh Kumar and Frank Kirchner},  
-      year={2024},  
-      eprint={2403.10966},  
-      archivePrefix={arXiv},  
-      primaryClass={cs.RO}  
-      } 
+    @INPROCEEDINGS{10611645, 
+    author={Girlanda, Federico and Shala, Lasse and Kumar, Shivesh and Kirchner, Frank}, 
+    booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+    title={Robust Co-Design of Canonical Underactuated Systems for Increased Certifiable Stability}, 
+    year={2024}, 
+    volume={}, 
+    number={}, 
+    pages={13271-13277}, 
+    keywords={Couplings;Torque;Regulators;Stability analysis;Robustness;Task analysis;Robotics and automation}, 
+    doi={10.1109/ICRA57147.2024.10611645}}
 
 
 </div>
