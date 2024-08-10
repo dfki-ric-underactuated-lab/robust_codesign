@@ -49,7 +49,7 @@ Cart-pole:
 <img width="210" src="results/media/RTCcartpoleVer.png">
 </div>
 
-### Aknowledgements and Citation (Preprint)
+### Aknowledgements and Citation
 
 Code contained in [software/python](software/python/) has been inspired by pre-existing software of DFKI GmbH. It's usage has been agreed with the owner.
 
